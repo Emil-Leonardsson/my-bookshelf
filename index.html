@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Böcker jag har lyssnat på</title>
+  <meta name="description" content="Böcker jag har lyssnat på, med betyg.">
+  <link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <h1>Böcker jag har lyssnat på</h1>
+      <p class="lede">Alla ljudböcker jag har köpt på Audible, i den ordning jag köpte dem.</p>
+      <dl class="stats" id="stats"></dl>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="controls">
+      <input id="q" type="search" placeholder="Sök titel, författare, uppläsare, serie..." aria-label="Sök">
+      <div class="seg" role="group" aria-label="Visa som">
+        <button data-view="date" class="on">Köpordning</button>
+        <button data-view="genre">Genre</button>
+        <button data-view="series">Serie</button>
+      </div>
+      <button id="dir" class="ghost" title="Byt sorteringsordning"></button>
+      <select id="minRating" aria-label="Minst betyg">
+        <option value="0">Alla betyg</option>
+        <option value="5">Bara 5 stjärnor</option>
+        <option value="4">4 stjärnor eller mer</option>
+        <option value="3">3 stjärnor eller mer</option>
+        <option value="-1">Utan betyg</option>
+      </select>
+    </div>
+
+    <div class="editbar" id="editbar" hidden>
+      <span><strong>Redigeringsläge.</strong> Klicka på stjärnorna för att betygsätta. Ändringar sparas i den här webbläsaren tills du exporterar.</span>
+      <span class="editbtns">
+        <button id="export">Exportera betyg</button>
+        <button id="reset" class="ghost">Släng ändringar</button>
+      </span>
+    </div>
+
+    <p class="count" id="count" aria-live="polite"></p>
+    <div id="list"></div>
+  </main>
+
+  <footer class="wrap foot">
+    <p>Data från Audible. Betygen är mina egna.</p>
+  </footer>
+
+  <script src="app.js?v=1"></script>
+</body>
+</html>

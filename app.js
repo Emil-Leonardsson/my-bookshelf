@@ -1,0 +1,210 @@
+(() => {
+  const DRAFT_KEY = 'audible-ratings-draft';
+  const EDIT = new URLSearchParams(location.search).has('edit');
+
+  const state = { books: [], q: '', view: 'date', dir: 'desc', minRating: '0' };
+  let draft = loadDraft();
+
+  const $ = (id) => document.getElementById(id);
+  const norm = (s) => (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+
+  function loadDraft() {
+    try { return JSON.parse(localStorage.getItem(DRAFT_KEY)) || {}; } catch { return {}; }
+  }
+  function saveDraft() {
+    try { localStorage.setItem(DRAFT_KEY, JSON.stringify(draft)); } catch { /* ignore */ }
+  }
+
+  const ratingOf = (b) => (b.asin in draft ? draft[b.asin] : b.rating);
+
+  const fmtDate = (iso) =>
+    new Date(iso).toLocaleDateString('sv-SE', { year: 'numeric', month: 'short', day: 'numeric' });
+
+  function hue(s) {
+    let h = 0;
+    for (const c of s) h = (h * 31 + c.charCodeAt(0)) % 360;
+    return h;
+  }
+
+  function starsHtml(b) {
+    const r = ratingOf(b);
+    const label = r ? `Betyg ${r} av 5` : 'Inget betyg än';
+    if (!EDIT) {
+      const s = [1, 2, 3, 4, 5].map((n) => `<span class="s${n <= r ? ' on' : ''}" aria-hidden="true">★</span>`).join('');
+      return `<span class="stars${r ? '' : ' norating'}" role="img" aria-label="${label}">${s}</span>`;
+    }
+    const s = [1, 2, 3, 4, 5]
+      .map((n) => `<button class="s${n <= r ? ' on' : ''}" data-asin="${b.asin}" data-n="${n}" aria-label="${n} stjärnor">★</button>`)
+      .join('');
+    return `<span class="stars editable${r ? '' : ' norating'}" title="Klicka på samma stjärna igen för att ta bort betyget">${s}</span>`;
+  }
+
+  function bookHtml(b, showSeries = true) {
+    const cover = b.cover
+      ? `<img src="${b.cover}" alt="" loading="lazy">`
+      : `<span>${esc(b.title)}</span>`;
+    const bg = b.cover ? '' : ` style="background:linear-gradient(145deg,hsl(${hue(b.title)} 45% 38%),hsl(${(hue(b.title) + 40) % 360} 50% 26%))"`;
+    const series = b.series && showSeries
+      ? `<span class="series">${esc(b.series)} #${b.seriesPart ?? '?'}</span>`
+      : b.series && b.seriesPart ? `<span class="series">Del ${b.seriesPart}</span>` : '';
+    return `
+      <article class="book">
+        <div class="cover"${bg}>${cover}</div>
+        <h3>${esc(b.title)}</h3>
+        <span class="by">${esc(b.author)}</span>
+        ${series}
+        ${starsHtml(b)}
+        <span class="date">Köpt ${fmtDate(b.purchased)}</span>
+      </article>`;
+  }
+
+  function esc(s) {
+    return String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+  }
+
+  function filtered() {
+    const q = norm(state.q).trim();
+    const min = Number(state.minRating);
+    return state.books.filter((b) => {
+      if (q && !norm([b.title, b.author, b.narrator, b.series, b.genre].join(' ')).includes(q)) return false;
+      const r = ratingOf(b);
+      if (min === -1) return !r;
+      if (min > 0) return r >= min;
+      return true;
+    });
+  }
+
+  const byDate = (dir) => (a, b) =>
+    (a.purchased < b.purchased ? -1 : a.purchased > b.purchased ? 1 : 0) * (dir === 'asc' ? 1 : -1);
+
+  function avg(list) {
+    const rated = list.map(ratingOf).filter(Boolean);
+    return rated.length ? rated.reduce((a, b) => a + b, 0) / rated.length : null;
+  }
+
+  function groupMeta(list) {
+    const a = avg(list);
+    const n = `${list.length} ${list.length === 1 ? 'bok' : 'böcker'}`;
+    return a ? `${n}, snittbetyg ${a.toFixed(1).replace('.', ',')}` : n;
+  }
+
+  function groupHtml(title, list, showSeries) {
+    return `
+      <section class="group">
+        <div class="group-head"><h2>${esc(title)}</h2><span class="meta">${groupMeta(list)}</span></div>
+        <div class="grid">${list.map((b) => bookHtml(b, showSeries)).join('')}</div>
+      </section>`;
+  }
+
+  function render() {
+    const list = filtered();
+    $('count').textContent = `Visar ${list.length} av ${state.books.length} böcker`;
+    $('dir').textContent = state.dir === 'desc' ? 'Nyast först ↓' : 'Äldst först ↑';
+    $('dir').hidden = state.view !== 'date';
+
+    if (!list.length) {
+      $('list').innerHTML = '<p class="empty">Inga böcker matchar sökningen.</p>';
+      return;
+    }
+
+    let html;
+    if (state.view === 'date') {
+      html = `<div class="grid">${list.sort(byDate(state.dir)).map((b) => bookHtml(b)).join('')}</div>`;
+    } else if (state.view === 'genre') {
+      const groups = groupBy(list, (b) => b.genre || 'Okänd genre');
+      html = [...groups]
+        .sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0], 'sv'))
+        .map(([g, items]) => groupHtml(g, items.sort(byDate('asc')), true))
+        .join('');
+    } else {
+      const groups = groupBy(list.filter((b) => b.series), (b) => b.series);
+      const solo = list.filter((b) => !b.series);
+      html = [...groups]
+        .sort((a, b) => a[0].localeCompare(b[0], 'sv'))
+        .map(([s, items]) => groupHtml(s, items.sort((a, b) => (a.seriesPart ?? 99) - (b.seriesPart ?? 99)), false))
+        .join('');
+      if (solo.length) html += groupHtml('Fristående böcker', solo.sort(byDate('asc')), false);
+    }
+    $('list').innerHTML = html;
+  }
+
+  function groupBy(list, key) {
+    const m = new Map();
+    for (const b of list) {
+      const k = key(b);
+      if (!m.has(k)) m.set(k, []);
+      m.get(k).push(b);
+    }
+    return m;
+  }
+
+  function renderStats() {
+    const dates = state.books.map((b) => b.purchased).sort();
+    const a = avg(state.books);
+    const ratedCount = state.books.filter(ratingOf).length;
+    const items = [
+      ['Böcker', state.books.length],
+      ['Serier', new Set(state.books.map((b) => b.series).filter(Boolean)).size],
+      ['Snittbetyg', a ? a.toFixed(1).replace('.', ',') + ' ★' : '-'],
+      ['Betygsatta', `${ratedCount} av ${state.books.length}`],
+      ['Sedan', dates.length ? dates[0].slice(0, 4) : '-'],
+    ];
+    $('stats').innerHTML = items.map(([t, v]) => `<div><dt>${t}</dt><dd>${v}</dd></div>`).join('');
+  }
+
+  function exportRatings() {
+    const books = state.books.map((b) => ({ ...b, rating: ratingOf(b) }));
+    const out = JSON.stringify({ generated: new Date().toISOString().slice(0, 10), books }, null, 2);
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([out], { type: 'application/json' }));
+    a.download = 'books.json';
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }
+
+  function bind() {
+    $('q').addEventListener('input', (e) => { state.q = e.target.value; render(); });
+    $('minRating').addEventListener('change', (e) => { state.minRating = e.target.value; render(); });
+    $('dir').addEventListener('click', () => { state.dir = state.dir === 'desc' ? 'asc' : 'desc'; render(); });
+    document.querySelectorAll('[data-view]').forEach((btn) =>
+      btn.addEventListener('click', () => {
+        state.view = btn.dataset.view;
+        document.querySelectorAll('[data-view]').forEach((x) => x.classList.toggle('on', x === btn));
+        render();
+      }));
+
+    if (EDIT) {
+      $('editbar').hidden = false;
+      $('list').addEventListener('click', (e) => {
+        const s = e.target.closest('.s[data-asin]');
+        if (!s) return;
+        const book = state.books.find((b) => b.asin === s.dataset.asin);
+        const n = Number(s.dataset.n);
+        draft[book.asin] = ratingOf(book) === n ? null : n;
+        saveDraft();
+        renderStats();
+        render();
+      });
+      $('export').addEventListener('click', exportRatings);
+      $('reset').addEventListener('click', () => {
+        if (!confirm('Kasta alla osparade betygsändringar?')) return;
+        draft = {};
+        saveDraft();
+        renderStats();
+        render();
+      });
+    }
+  }
+
+  fetch('data/books.json')
+    .then((r) => r.json())
+    .then((data) => {
+      state.books = data.books;
+      bind();
+      renderStats();
+      render();
+    })
+    .catch(() => {
+      $('list').innerHTML = '<p class="empty">Kunde inte läsa data/books.json. Kör sidan via en webbserver, inte som fil.</p>';
+    });
+})();
