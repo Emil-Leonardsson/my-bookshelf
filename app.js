@@ -64,7 +64,7 @@
         <span class="by">${esc(b.author || 'Okänd författare')}</span>
         ${series}
         ${starsHtml(b)}
-        <span class="date">Tillagd ${b.dateApprox ? `ca ${fmtMonth(b.purchased)}` : fmtDate(b.purchased)}</span>
+        <span class="date">Läst ${b.dateApprox ? fmtMonth(b.purchased) : fmtDate(b.purchased)}</span>
         ${EDIT && b.flags.length ? `<span class="flags">Granska: ${b.flags.map((f) => FLAG_LABELS[f] || f).join(', ')}</span>` : ''}
       </article>`;
   }
