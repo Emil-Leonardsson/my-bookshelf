@@ -7,6 +7,7 @@ const dataDir = path.join(__dirname, '..', 'data');
 const readJson = (f) => JSON.parse(fs.readFileSync(path.join(dataDir, f), 'utf8'));
 const genres = readJson('genres.json');
 const overrides = readJson('overrides.json');
+const reviewed = new Set(readJson('reviewed.json')); // asin som jag har granskat, får inga flaggor
 const coverDir = path.join(__dirname, '..', 'covers');
 
 const isoReturn = (s) => { const m = /^(\d\d)-(\d\d)-(\d\d)$/.exec(s || ''); return m ? `20${m[3]}-${m[1]}-${m[2]}` : null; };
@@ -53,9 +54,12 @@ for (const [asin, list] of byAsin) {
   if (extra.length) flags.push('duplicate');
   if (overrides[asin] && !overrides[asin].sameAs) flags.push('manual');
   if (!merged.author) flags.push('noauthor');
+  if (reviewed.has(asin)) flags.length = 0;
   const cover = merged.cover && fs.existsSync(path.join(coverDir, `${asin}.jpg`)) ? `covers/${asin}.jpg` : null;
   books.push({
     asin,
+    source: merged.source || 'audible',
+    url: merged.url || `https://www.audible.com/pd/${encodeURIComponent(asin)}`,
     title: merged.title,
     author: merged.author || null,
     narrator: merged.narrator || null,

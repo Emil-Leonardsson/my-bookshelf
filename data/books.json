@@ -3,6 +3,8 @@
  "books": [
   {
    "asin": "B07VZ2JKQP",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07VZ2JKQP",
    "title": "Team Topologies: Organizing Business and Technology Teams for Fast Flow",
    "author": "Matthew Skelton, Manuel Pais",
    "narrator": "Edward Bauer",
@@ -20,6 +22,8 @@
   },
   {
    "asin": "B0H5L6GG3Q",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0H5L6GG3Q",
    "title": "The Path of Ascension 12",
    "author": "C. Mantis",
    "narrator": "J.S. Arquin",
@@ -37,6 +41,8 @@
   },
   {
    "asin": "B0H8ZSFTG9",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0H8ZSFTG9",
    "title": "The Primal Hunter 15",
    "author": "Zogarth",
    "narrator": "Travis Baldree",
@@ -54,6 +60,8 @@
   },
   {
    "asin": "B07MC17D5B",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07MC17D5B",
    "title": "The Basics of Kanban",
    "author": "Aditi Agarwal",
    "narrator": "Douglas Birk",
@@ -71,6 +79,8 @@
   },
   {
    "asin": "B0H7MF1JTR",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0H7MF1JTR",
    "title": "The Legend of Randidly Ghosthound 14",
    "author": "Noret Flood, puddles4263",
    "narrator": "MacLeod Andrews",
@@ -88,6 +98,8 @@
   },
   {
    "asin": "B0BG6HYQDZ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0BG6HYQDZ",
    "title": "Extraordinarily Badass Agile Coaching",
    "author": "Robert L. Galen",
    "narrator": "Bruce Nix",
@@ -105,6 +117,8 @@
   },
   {
    "asin": "B0DCGMDR1D",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0DCGMDR1D",
    "title": "The Book That Held Her Heart",
    "author": "Mark Lawrence",
    "narrator": "Jessica Whittaker",
@@ -122,6 +136,8 @@
   },
   {
    "asin": "B0CDQK5WNL",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0CDQK5WNL",
    "title": "The Book That Broke the World",
    "author": "Mark Lawrence",
    "narrator": "Jessica Whittaker",
@@ -139,6 +155,8 @@
   },
   {
    "asin": "B079DWVY3L",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B079DWVY3L",
    "title": "Product Mastery",
    "author": "Geoff Watts",
    "narrator": "Geoff Watts",
@@ -156,6 +174,8 @@
   },
   {
    "asin": "B0GWK73YML",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0GWK73YML",
    "title": "Theurge",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -173,6 +193,8 @@
   },
   {
    "asin": "B089BRWR8K",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B089BRWR8K",
    "title": "Team Mastery",
    "author": "Geoff Watts",
    "narrator": "Geoff Watts",
@@ -190,6 +212,8 @@
   },
   {
    "asin": "B0GLSXS3NV",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0GLSXS3NV",
    "title": "The Legend of Randidly Ghosthound 13",
    "author": "Noret Flood, puddles4263",
    "narrator": "MacLeod Andrews",
@@ -207,6 +231,8 @@
   },
   {
    "asin": "B0H1NGTHHS",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0H1NGTHHS",
    "title": "The Primal Hunter 14",
    "author": "Zogarth",
    "narrator": "Travis Baldree",
@@ -224,6 +250,8 @@
   },
   {
    "asin": "B0GMRBJ21M",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0GMRBJ21M",
    "title": "The Coaching Habit",
    "author": "Michael Bungay Stanier",
    "narrator": "Michael Bungay Stanier",
@@ -241,6 +269,8 @@
   },
   {
    "asin": "1469075458",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1469075458",
    "title": "The Art of Coaching",
    "author": "Elena Aguilar",
    "narrator": "Emily Ellet",
@@ -258,6 +288,8 @@
   },
   {
    "asin": "B0GRC1Y743",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0GRC1Y743",
    "title": "The Path of Ascension 11",
    "author": "C. Mantis",
    "narrator": "J.S. Arquin",
@@ -275,6 +307,8 @@
   },
   {
    "asin": "B08QTT7HNH",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B08QTT7HNH",
    "title": "Coaching Agile Teams: A Companion for ScrumMasters, Agile Coaches, and Project Managers in Transition",
    "author": "Lyssa Adkins",
    "narrator": "Lyssa Adkins",
@@ -292,6 +326,8 @@
   },
   {
    "asin": "B097TS5YRF",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B097TS5YRF",
    "title": "Scrum Mastery",
    "author": "Geoff Watts",
    "narrator": "Geoff Watts",
@@ -309,6 +345,8 @@
   },
   {
    "asin": "B0BLVG6B85",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0BLVG6B85",
    "title": "Mastering Professional Scrum",
    "author": "Stephanie Ockerman, Simon Reindl",
    "narrator": "Michael James Bell",
@@ -326,6 +364,8 @@
   },
   {
    "asin": "B0GQWJQBWT",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0GQWJQBWT",
    "title": "Mark of the Fool 10",
    "author": "J.M. Clarke",
    "narrator": "Travis Baldree",
@@ -343,6 +383,8 @@
   },
   {
    "asin": "B0GC832YN8",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0GC832YN8",
    "title": "Seamage",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -360,6 +402,8 @@
   },
   {
    "asin": "B0D4BYZ476",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0D4BYZ476",
    "title": "Candle &amp; Crow",
    "author": "Kevin Hearne",
    "narrator": "Luke Daniels",
@@ -377,6 +421,8 @@
   },
   {
    "asin": "B0F2JQYGVG",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0F2JQYGVG",
    "title": "Twelve Months",
    "author": "Jim Butcher",
    "narrator": "James Marsters",
@@ -394,6 +440,8 @@
   },
   {
    "asin": "B0FRNJ6BSJ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0FRNJ6BSJ",
    "title": "Ritual of Ruin",
    "author": "Kel Kade",
    "narrator": "Nick Podehl",
@@ -411,6 +459,8 @@
   },
   {
    "asin": "B0FJ2RW3ZJ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0FJ2RW3ZJ",
    "title": "The Mage of Everywhere",
    "author": "B.T. Narro",
    "narrator": "Nick Podehl",
@@ -428,6 +478,8 @@
   },
   {
    "asin": "B0FV11RGSC",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0FV11RGSC",
    "title": "Heart of the Mountain",
    "author": "Larry Correia",
    "narrator": "Tim Gerard Reynolds",
@@ -445,6 +497,8 @@
   },
   {
    "asin": "B0G87LH5X8",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0G87LH5X8",
    "title": "The Primal Hunter 13",
    "author": "Zogarth",
    "narrator": "Travis Baldree",
@@ -462,6 +516,8 @@
   },
   {
    "asin": "B0FRN83ZP7",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0FRN83ZP7",
    "title": "The Legend of Randidly Ghosthound 12",
    "author": "Noret Flood, puddles4263",
    "narrator": "MacLeod Andrews",
@@ -479,6 +535,8 @@
   },
   {
    "asin": "B08RZDVD7R",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B08RZDVD7R",
    "title": "Eve of Redemption: Books 1-6",
    "author": "Joe Jackson",
    "narrator": "Chelsea Stephens",
@@ -496,6 +554,8 @@
   },
   {
    "asin": "B0B9P72LZC",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0B9P72LZC",
    "title": "The Book That Wouldn't Burn",
    "author": "Mark Lawrence",
    "narrator": "Jessica Whittaker",
@@ -513,6 +573,8 @@
   },
   {
    "asin": "B0FW5V9LY2",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0FW5V9LY2",
    "title": "The Path of Ascension 10",
    "author": "C. Mantis",
    "narrator": "J.S. Arquin",
@@ -530,6 +592,8 @@
   },
   {
    "asin": "B0FC48SGWW",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0FC48SGWW",
    "title": "The Legend of Randidly Ghosthound 11",
    "author": "Noret Flood, puddles4263",
    "narrator": "MacLeod Andrews",
@@ -547,6 +611,8 @@
   },
   {
    "asin": "B0FNS1FTXS",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0FNS1FTXS",
    "title": "The Talon and the Flame",
    "author": "Terry Mancour",
    "narrator": "Marian Hussey",
@@ -564,6 +630,8 @@
   },
   {
    "asin": "B0F15GBHXM",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0F15GBHXM",
    "title": "A Brief History of Chronomancy",
    "author": "Andrew Rowe",
    "narrator": "Nick Podehl",
@@ -581,6 +649,8 @@
   },
   {
    "asin": "B0F514WLWD",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0F514WLWD",
    "title": "The Golden Goblin",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -598,6 +668,8 @@
   },
   {
    "asin": "B0DK63TMR5",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0DK63TMR5",
    "title": "Graveyard of Demons",
    "author": "Larry Correia",
    "narrator": "Tim Gerard Reynolds",
@@ -615,6 +687,8 @@
   },
   {
    "asin": "B0F7Z6M6LG",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0F7Z6M6LG",
    "title": "The Path of Ascension 9",
    "author": "C. Mantis",
    "narrator": "J.S. Arquin",
@@ -632,6 +706,8 @@
   },
   {
    "asin": "B0FCYRLKRP",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0FCYRLKRP",
    "title": "Mark of the Fool 9",
    "author": "J.M. Clarke",
    "narrator": "Travis Baldree",
@@ -649,6 +725,8 @@
   },
   {
    "asin": "B0F8P6X1KR",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0F8P6X1KR",
    "title": "The Primal Hunter 12",
    "author": "Zogarth",
    "narrator": "Travis Baldree",
@@ -666,6 +744,8 @@
   },
   {
    "asin": "B0F2JDL5LF",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0F2JDL5LF",
    "title": "The Legend of Randidly Ghosthound 10",
    "author": "Noret Flood, puddles4263",
    "narrator": "MacLeod Andrews",
@@ -683,6 +763,8 @@
   },
   {
    "asin": "B0DY8ML8MW",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0DY8ML8MW",
    "title": "Mark of the Fool 8",
    "author": "J.M. Clarke",
    "narrator": "Travis Baldree",
@@ -700,6 +782,8 @@
   },
   {
    "asin": "B0DM9LMPRH",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0DM9LMPRH",
    "title": "Mark of the Fool 7",
    "author": "J.M. Clarke",
    "narrator": "Travis Baldree",
@@ -717,6 +801,8 @@
   },
   {
    "asin": "B0D94THHPZ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0D94THHPZ",
    "title": "Mark of the Fool 6",
    "author": "J.M. Clarke",
    "narrator": "Travis Baldree",
@@ -734,6 +820,8 @@
   },
   {
    "asin": "B0CXFHQGRL",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0CXFHQGRL",
    "title": "Mark of the Fool 5",
    "author": "J.M. Clarke",
    "narrator": "Travis Baldree",
@@ -751,6 +839,8 @@
   },
   {
    "asin": "B0CK8XBNVL",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0CK8XBNVL",
    "title": "Mark of the Fool 4",
    "author": "J.M. Clarke",
    "narrator": "Travis Baldree",
@@ -768,6 +858,8 @@
   },
   {
    "asin": "B0BX4KRJGZ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0BX4KRJGZ",
    "title": "Mark of the Fool 3",
    "author": "J.M. Clarke",
    "narrator": "Travis Baldree",
@@ -785,6 +877,8 @@
   },
   {
    "asin": "B0BK9Y83LV",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0BK9Y83LV",
    "title": "Mark of the Fool 2",
    "author": "J.M. Clarke",
    "narrator": "Travis Baldree",
@@ -802,6 +896,8 @@
   },
   {
    "asin": "B0B6JPQXR6",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0B6JPQXR6",
    "title": "Mark of the Fool",
    "author": "J.M. Clarke",
    "narrator": "Travis Baldree",
@@ -819,6 +915,8 @@
   },
   {
    "asin": "B0CZPNXKHQ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0CZPNXKHQ",
    "title": "Reign of Havoc",
    "author": "B.T. Narro",
    "narrator": "Nick Podehl",
@@ -836,6 +934,8 @@
   },
   {
    "asin": "B0DXLQYX6Z",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0DXLQYX6Z",
    "title": "The Third Scour",
    "author": "Edward W. Robertson",
    "narrator": "Tim Gerard Reynolds",
@@ -853,6 +953,8 @@
   },
   {
    "asin": "B0DJ3GB9WZ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0DJ3GB9WZ",
    "title": "When Wizards Follow Fools",
    "author": "Andrew Rowe",
    "narrator": "Nick Podehl",
@@ -870,6 +972,8 @@
   },
   {
    "asin": "B0DWZYWQTB",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0DWZYWQTB",
    "title": "He Who Fights with Monsters 12: A LitRPG Adventure",
    "author": "Shirtaloon, Travis Deverell",
    "narrator": "Heath Miller",
@@ -887,6 +991,8 @@
   },
   {
    "asin": "B0DRMJWT6L",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0DRMJWT6L",
    "title": "The Legend of Randidly Ghosthound 9",
    "author": "Noret Flood, puddles4263",
    "narrator": "MacLeod Andrews",
@@ -904,6 +1010,8 @@
   },
   {
    "asin": "B0DSCJ66N4",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0DSCJ66N4",
    "title": "The Path of Ascension 8",
    "author": "C. Mantis",
    "narrator": "J.S. Arquin",
@@ -921,6 +1029,8 @@
   },
   {
    "asin": "B0DWG4J2SH",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0DWG4J2SH",
    "title": "The Primal Hunter 11",
    "author": "Zogarth",
    "narrator": "Travis Baldree",
@@ -938,6 +1048,8 @@
   },
   {
    "asin": "B0D3QZV7F7",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0D3QZV7F7",
    "title": "Sanctum of the Soul",
    "author": "Kel Kade",
    "narrator": "Nick Podehl",
@@ -955,6 +1067,8 @@
   },
   {
    "asin": "B0DNKTTZ23",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0DNKTTZ23",
    "title": "Savage Awakening 3",
    "author": "Adastra339",
    "narrator": "Christian J. Gilliland",
@@ -972,6 +1086,8 @@
   },
   {
    "asin": "B0D953C7XL",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0D953C7XL",
    "title": "Savage Awakening 2",
    "author": "Adastra339",
    "narrator": "Christian J. Gilliland",
@@ -989,6 +1105,8 @@
   },
   {
    "asin": "B0D5ZMBDHT",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0D5ZMBDHT",
    "title": "The Legend of Randidly Ghosthound 8",
    "author": "Noret Flood, puddles4263",
    "narrator": "MacLeod Andrews",
@@ -1006,6 +1124,8 @@
   },
   {
    "asin": "B0CQ3759C3",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0CQ3759C3",
    "title": "Wind and Truth",
    "author": "Brandon Sanderson",
    "narrator": "Kate Reading, Michael Kramer",
@@ -1023,6 +1143,8 @@
   },
   {
    "asin": "B0DGQVB5B9",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0DGQVB5B9",
    "title": "Knight of Shadows",
    "author": "Kel Kade",
    "narrator": "Nick Podehl",
@@ -1040,6 +1162,8 @@
   },
   {
    "asin": "B0DK41WV5K",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0DK41WV5K",
    "title": "The Primal Hunter 10",
    "author": "Zogarth",
    "narrator": "Travis Baldree",
@@ -1057,6 +1181,8 @@
   },
   {
    "asin": "B0CZ4X95CM",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0CZ4X95CM",
    "title": "Savage Awakening",
    "author": "Adastra339",
    "narrator": "Christian J. Gilliland",
@@ -1074,6 +1200,8 @@
   },
   {
    "asin": "B0CWLW4KP1",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0CWLW4KP1",
    "title": "The Mage from Nowhere",
    "author": "B.T. Narro",
    "narrator": "Nick Podehl",
@@ -1091,6 +1219,8 @@
   },
   {
    "asin": "B0DCKGQG4K",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0DCKGQG4K",
    "title": "The Path of Ascension 7",
    "author": "C. Mantis",
    "narrator": "J.S. Arquin",
@@ -1108,6 +1238,8 @@
   },
   {
    "asin": "B0D2375BYF",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0D2375BYF",
    "title": "The Path of Ascension 6",
    "author": "C. Mantis",
    "narrator": "J.S. Arquin",
@@ -1125,6 +1257,8 @@
   },
   {
    "asin": "B0CYHKDFDQ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0CYHKDFDQ",
    "title": "The Path of Ascension 5",
    "author": "C. Mantis",
    "narrator": "J.S. Arquin",
@@ -1142,6 +1276,8 @@
   },
   {
    "asin": "B0CHJZNBY1",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0CHJZNBY1",
    "title": "The Path of Ascension 4",
    "author": "C. Mantis",
    "narrator": "J.S. Arquin",
@@ -1159,6 +1295,8 @@
   },
   {
    "asin": "B0CC6J6XD2",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0CC6J6XD2",
    "title": "The Path of Ascension: Books 1-3.5",
    "author": "C. Mantis",
    "narrator": "J.S. Arquin",
@@ -1176,6 +1314,8 @@
   },
   {
    "asin": "B0D7F9P7Z6",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0D7F9P7Z6",
    "title": "Practical Adept",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -1193,6 +1333,8 @@
   },
   {
    "asin": "B0D4819M7W",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0D4819M7W",
    "title": "The Legend of Randidly Ghosthound 7",
    "author": "Noret Flood, puddles4263",
    "narrator": "MacLeod Andrews",
@@ -1210,6 +1352,8 @@
   },
   {
    "asin": "B0D6H2N1YL",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0D6H2N1YL",
    "title": "The Primal Hunter 9: A LitRPG Adventure",
    "author": "Zogarth",
    "narrator": "Travis Baldree",
@@ -1227,6 +1371,8 @@
   },
   {
    "asin": "B0D1W1YF7R",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0D1W1YF7R",
    "title": "The Cycle of Galand",
    "author": "Edward W. Robertson",
    "narrator": "Tim Gerard Reynolds",
@@ -1244,6 +1390,8 @@
   },
   {
    "asin": "B0D1DPR1X3",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0D1DPR1X3",
    "title": "He Who Fights with Monsters 11: A LitRPG Adventure",
    "author": "Shirtaloon, Travis Deverell",
    "narrator": "Heath Miller",
@@ -1261,6 +1409,8 @@
   },
   {
    "asin": "B0CK3QJRK1",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0CK3QJRK1",
    "title": "Monster Hunter Memoirs: Fever",
    "author": "Larry Correia, Jason Cordova",
    "narrator": "Annika Chavez",
@@ -1278,6 +1428,8 @@
   },
   {
    "asin": "B0CB71LD99",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0CB71LD99",
    "title": "The Keeper Origins: The Complete Trilogy",
    "author": "JA Andrews",
    "narrator": "Kate Reading",
@@ -1295,6 +1447,8 @@
   },
   {
    "asin": "B0CNDF32SZ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0CNDF32SZ",
    "title": "Shadowblade",
    "author": "Terry Mancour, Emily Burch Harris",
    "narrator": "Fiona Hardingham",
@@ -1312,6 +1466,8 @@
   },
   {
    "asin": "B0CXTZS831",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0CXTZS831",
    "title": "Tower of Silence",
    "author": "Larry Correia",
    "narrator": "Tim Gerard Reynolds",
@@ -1329,6 +1485,8 @@
   },
   {
    "asin": "B0CR4HYSR7",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0CR4HYSR7",
    "title": "The Legend of Randidly Ghosthound 6: A LitRPG Adventure",
    "author": "Noret Flood, puddles4263",
    "narrator": "MacLeod Andrews",
@@ -1346,6 +1504,8 @@
   },
   {
    "asin": "B0CQYVL43H",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0CQYVL43H",
    "title": "The Primal Hunter 8",
    "author": "Zogarth",
    "narrator": "Travis Baldree",
@@ -1363,6 +1523,8 @@
   },
   {
    "asin": "B0CVQWX66S",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0CVQWX66S",
    "title": "The Shattered Path",
    "author": "Edward W. Robertson",
    "narrator": "Tim Gerard Reynolds",
@@ -1380,6 +1542,8 @@
   },
   {
    "asin": "B0CLNJQQD7",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0CLNJQQD7",
    "title": "The Primal Hunter 7 - A LitRPG Adventure",
    "author": "Zogarth",
    "narrator": "Travis Baldree",
@@ -1397,6 +1561,8 @@
   },
   {
    "asin": "B0CC6FHBQM",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0CC6FHBQM",
    "title": "The Primal Hunter 6",
    "author": "Zogarth",
    "narrator": "Travis Baldree",
@@ -1414,6 +1580,8 @@
   },
   {
    "asin": "B0C34GCYVT",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0C34GCYVT",
    "title": "The Primal Hunter 5",
    "author": "Zogarth",
    "narrator": "Travis Baldree",
@@ -1431,6 +1599,8 @@
   },
   {
    "asin": "B0BK9W82PQ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0BK9W82PQ",
    "title": "Primal Hunter 4",
    "author": "Zogarth",
    "narrator": "Travis Baldree",
@@ -1448,6 +1618,8 @@
   },
   {
    "asin": "B0B6JM8KKV",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0B6JM8KKV",
    "title": "The Primal Hunter 3",
    "author": "Zogarth",
    "narrator": "Travis Baldree",
@@ -1465,6 +1637,8 @@
   },
   {
    "asin": "B09V5RZFDG",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B09V5RZFDG",
    "title": "The Primal Hunter 2",
    "author": "Zogarth",
    "narrator": "Travis Baldree",
@@ -1482,6 +1656,8 @@
   },
   {
    "asin": "B09MWP4277",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B09MWP4277",
    "title": "The Primal Hunter",
    "author": "Zogarth",
    "narrator": "Travis Baldree",
@@ -1504,12 +1680,12 @@
      "returned": null
     }
    ],
-   "flags": [
-    "duplicate"
-   ]
+   "flags": []
   },
   {
    "asin": "B09L32QH16",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B09L32QH16",
    "title": "Dungeon World Series Complete Box Set: Books 1 Through 5",
    "author": "Jonathan Brooks",
    "narrator": "Miles Meili",
@@ -1527,6 +1703,8 @@
   },
   {
    "asin": "B0C1PV6Q7C",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0C1PV6Q7C",
    "title": "He Who Fights with Monsters 10",
    "author": "Shirtaloon, Travis Deverell",
    "narrator": "Heath Miller",
@@ -1544,6 +1722,8 @@
   },
   {
    "asin": "B0C1TG7C4P",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0C1TG7C4P",
    "title": "Phantom Chamber",
    "author": "Andrew Rowe, Kayleigh Nicol",
    "narrator": "Travis Baldree, Emily Lawrence",
@@ -1561,6 +1741,8 @@
   },
   {
    "asin": "B0CBNH5C2S",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0CBNH5C2S",
    "title": "Preceptor",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -1578,6 +1760,8 @@
   },
   {
    "asin": "B0C413K9DZ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0C413K9DZ",
    "title": "The Legend of Randidly Ghosthound 5",
    "author": "Noret Flood, puddles4263",
    "narrator": "MacLeod Andrews",
@@ -1595,6 +1779,8 @@
   },
   {
    "asin": "B09DR5MVJS",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B09DR5MVJS",
    "title": "Watcher's Repose: A LitRPG Saga",
    "author": "Sean Oswald",
    "narrator": "Peter Berkrot",
@@ -1612,6 +1798,8 @@
   },
   {
    "asin": "B097TV6P59",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B097TV6P59",
    "title": "Life in Exile Books 1-3",
    "author": "Sean Oswald",
    "narrator": "Peter Berkrot",
@@ -1629,6 +1817,8 @@
   },
   {
    "asin": "B0BFC7GHFC",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0BFC7GHFC",
    "title": "Unstoppable",
    "author": "Sean Oswald",
    "narrator": "Daniel Wisniewski",
@@ -1646,6 +1836,8 @@
   },
   {
    "asin": "B0B351859J",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0B351859J",
    "title": "Unbalanced",
    "author": "Sean Oswald",
    "narrator": "Daniel Wisniewski",
@@ -1663,6 +1855,8 @@
   },
   {
    "asin": "B0BSRHMR9T",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0BSRHMR9T",
    "title": "The Legend of Randidly Ghosthound 4: A LitRPG Adventure",
    "author": "Noret Flood, puddles4263",
    "narrator": "MacLeod Andrews",
@@ -1680,6 +1874,8 @@
   },
   {
    "asin": "B09WTS2HGM",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B09WTS2HGM",
    "title": "The Legend of Randidly Ghosthound 3",
    "author": "Noret Flood, puddles4263",
    "narrator": "MacLeod Andrews",
@@ -1697,6 +1893,8 @@
   },
   {
    "asin": "B09NB25JP9",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B09NB25JP9",
    "title": "The Legend of Randidly Ghosthound 2: A LitRPG Adventure",
    "author": "Noret Flood, puddles4263",
    "narrator": "MacLeod Andrews",
@@ -1714,6 +1912,8 @@
   },
   {
    "asin": "B09CRBSDHY",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B09CRBSDHY",
    "title": "The Legend of Randidly Ghosthound",
    "author": "Noret Flood, puddles4263",
    "narrator": "MacLeod Andrews",
@@ -1731,6 +1931,8 @@
   },
   {
    "asin": "B01K5Q6VWO",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B01K5Q6VWO",
    "title": "Arcanum Unbounded: The Cosmere Collection",
    "author": "Brandon Sanderson",
    "narrator": "Michael Kramer, Kate Reading",
@@ -1748,6 +1950,8 @@
   },
   {
    "asin": "B09N446YK7",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B09N446YK7",
    "title": "The Lost Metal",
    "author": "Brandon Sanderson",
    "narrator": "Michael Kramer",
@@ -1765,6 +1969,8 @@
   },
   {
    "asin": "B0BHJF9622",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0BHJF9622",
    "title": "The Silence of Unworthy Gods",
    "author": "Andrew Rowe",
    "narrator": "Nick Podehl",
@@ -1782,6 +1988,8 @@
   },
   {
    "asin": "B0BKR32DG4",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0BKR32DG4",
    "title": "The 13th God",
    "author": "Edward W. Robertson",
    "narrator": "Tim Gerard Reynolds",
@@ -1799,6 +2007,8 @@
   },
   {
    "asin": "B0BMCNHHWN",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0BMCNHHWN",
    "title": "He Who Fights with Monsters 9",
    "author": "Shirtaloon, Travis Deverell",
    "narrator": "Heath Miller",
@@ -1816,6 +2026,8 @@
   },
   {
    "asin": "0593214919",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/0593214919",
    "title": "Paper &amp; Blood",
    "author": "Kevin Hearne",
    "narrator": "Luke Daniels",
@@ -1833,6 +2045,8 @@
   },
   {
    "asin": "B079YYJK47",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B079YYJK47",
    "title": "Galaxy Outlaws: The Complete Black Ocean Mobius Missions, 1-16.5",
    "author": "J. S. Morin",
    "narrator": "Mikael Naramore",
@@ -1850,6 +2064,8 @@
   },
   {
    "asin": "0593213882",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/0593213882",
    "title": "Ink &amp; Sigil",
    "author": "Kevin Hearne",
    "narrator": "Luke Daniels",
@@ -1867,6 +2083,8 @@
   },
   {
    "asin": "B0BDP46JN1",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0BDP46JN1",
    "title": "Marshal Arcane",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -1884,6 +2102,8 @@
   },
   {
    "asin": "B0BDMQN3S8",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0BDMQN3S8",
    "title": "He Who Fights with Monsters 8",
    "author": "Shirtaloon, Travis Deverell",
    "narrator": "Heath Miller",
@@ -1901,6 +2121,8 @@
   },
   {
    "asin": "B0BC299XT2",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0BC299XT2",
    "title": "Crystal Awakening",
    "author": "Andrew Rowe, Kayleigh Nicol",
    "narrator": "Travis Baldree, Emily Lawrence",
@@ -1918,6 +2140,8 @@
   },
   {
    "asin": "B0B8LP8CPD",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0B8LP8CPD",
    "title": "Shadowheist",
    "author": "Terry Mancour, Emily Burch Harris",
    "narrator": "Fiona Hardingham",
@@ -1935,6 +2159,8 @@
   },
   {
    "asin": "B0B8PH32PN",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0B8PH32PN",
    "title": "The Mad Mage of Sevendor",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -1952,6 +2178,8 @@
   },
   {
    "asin": "B09WB2V33H",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B09WB2V33H",
    "title": "He Who Fights with Monsters 6",
    "author": "Shirtaloon, Travis Deverell",
    "narrator": "Heath Miller",
@@ -1969,6 +2197,8 @@
   },
   {
    "asin": "B0B5HY4BM7",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0B5HY4BM7",
    "title": "He Who Fights with Monsters 7",
    "author": "Shirtaloon, Travis Deverell",
    "narrator": "Heath Miller",
@@ -1986,6 +2216,8 @@
   },
   {
    "asin": "B09PSSTFP3",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B09PSSTFP3",
    "title": "He Who Fights with Monsters 5",
    "author": "Shirtaloon, Travis Deverell",
    "narrator": "Heath Miller",
@@ -2004,12 +2236,12 @@
      "returned": null
     }
    ],
-   "flags": [
-    "duplicate"
-   ]
+   "flags": []
   },
   {
    "asin": "B09GHD1R2R",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B09GHD1R2R",
    "title": "He Who Fights with Monsters 4",
    "author": "Shirtaloon, Travis Deverell",
    "narrator": "Heath Miller",
@@ -2028,12 +2260,12 @@
      "returned": null
     }
    ],
-   "flags": [
-    "duplicate"
-   ]
+   "flags": []
   },
   {
    "asin": "1039400205",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1039400205",
    "title": "He Who Fights with Monsters 3",
    "author": "Shirtaloon, Travis Deverell",
    "narrator": "Heath Miller",
@@ -2064,12 +2296,12 @@
      "returned": null
     }
    ],
-   "flags": [
-    "duplicate"
-   ]
+   "flags": []
   },
   {
    "asin": "1774249162",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1774249162",
    "title": "He Who Fights with Monsters 2",
    "author": "Shirtaloon, Travis Deverell",
    "narrator": "Heath Miller",
@@ -2087,6 +2319,8 @@
   },
   {
    "asin": "1774248182",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1774248182",
    "title": "He Who Fights with Monsters: A LitRPG Adventure",
    "author": "Shirtaloon, Travis Deverell",
    "narrator": "Heath Miller",
@@ -2105,12 +2339,12 @@
      "returned": null
     }
    ],
-   "flags": [
-    "duplicate"
-   ]
+   "flags": []
   },
   {
    "asin": "0008152438",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/0008152438",
    "title": "Holy Sister",
    "author": "Mark Lawrence",
    "narrator": "Helen Duff",
@@ -2128,6 +2362,8 @@
   },
   {
    "asin": "B07BH471NR",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07BH471NR",
    "title": "Grey Sister",
    "author": "Mark Lawrence",
    "narrator": "Helen Duff",
@@ -2145,6 +2381,8 @@
   },
   {
    "asin": "B06XCFZ477",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B06XCFZ477",
    "title": "Red Sister",
    "author": "Mark Lawrence",
    "narrator": "Helen Duff",
@@ -2162,6 +2400,8 @@
   },
   {
    "asin": "B0B4BBNLGB",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0B4BBNLGB",
    "title": "Dragons and Demons",
    "author": "Kel Kade",
    "narrator": "Nick Podehl",
@@ -2179,6 +2419,8 @@
   },
   {
    "asin": "0593553675",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/0593553675",
    "title": "Soul Taken",
    "author": "Patricia Briggs",
    "narrator": "Lorelei King",
@@ -2196,6 +2438,8 @@
   },
   {
    "asin": "B09N9YK47V",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B09N9YK47V",
    "title": "The Last Tomb",
    "author": "Edward W. Robertson",
    "narrator": "Tim Gerard Reynolds",
@@ -2213,6 +2457,8 @@
   },
   {
    "asin": "B076XTGJYF",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B076XTGJYF",
    "title": "A Darkness at Sethanon",
    "author": "Raymond E. Feist",
    "narrator": "Nicholas Guy Smith",
@@ -2230,6 +2476,8 @@
   },
   {
    "asin": "B076XPY8JW",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B076XPY8JW",
    "title": "Silverthorn",
    "author": "Raymond E. Feist",
    "narrator": "Nicholas Guy Smith",
@@ -2247,6 +2495,8 @@
   },
   {
    "asin": "B0765CJ89B",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0765CJ89B",
    "title": "Battle for the Abyss",
    "author": "Ben Counter",
    "narrator": "Gareth Armstrong",
@@ -2264,6 +2514,8 @@
   },
   {
    "asin": "B076H99ZPQ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B076H99ZPQ",
    "title": "Magician: Master",
    "author": "Raymond E. Feist",
    "narrator": "Nicholas Guy Smith",
@@ -2281,6 +2533,8 @@
   },
   {
    "asin": "B07626946X",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07626946X",
    "title": "Magician: Apprentice",
    "author": "Raymond E. Feist",
    "narrator": "Nicholas Guy Smith",
@@ -2298,6 +2552,8 @@
   },
   {
    "asin": "B09D1DH6NX",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B09D1DH6NX",
    "title": "Monster Hunter Bloodlines",
    "author": "Larry Correia",
    "narrator": "Oliver Wyman",
@@ -2315,6 +2571,8 @@
   },
   {
    "asin": "0593553713",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/0593553713",
    "title": "The Girl and the Moon",
    "author": "Mark Lawrence",
    "narrator": "Helen Duff",
@@ -2332,6 +2590,8 @@
   },
   {
    "asin": "059334748X",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/059334748X",
    "title": "The Girl and the Mountain",
    "author": "Mark Lawrence",
    "narrator": "Helen Duff",
@@ -2349,6 +2609,8 @@
   },
   {
    "asin": "B09L59M8KZ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B09L59M8KZ",
    "title": "Hedgewitch",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -2366,6 +2628,8 @@
   },
   {
    "asin": "B09DZ541QL",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B09DZ541QL",
    "title": "Shadowplay",
    "author": "Terry Mancour, Emily Burch Harris",
    "narrator": "Fiona Hardingham",
@@ -2383,6 +2647,8 @@
   },
   {
    "asin": "0593344472",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/0593344472",
    "title": "The Girl and the Stars",
    "author": "Mark Lawrence",
    "narrator": "Helen Duff",
@@ -2400,6 +2666,8 @@
   },
   {
    "asin": "B01CSYPZ64",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B01CSYPZ64",
    "title": "The Wheel of Osheim",
    "author": "Mark Lawrence",
    "narrator": "Sean Ohlendorf",
@@ -2417,6 +2685,8 @@
   },
   {
    "asin": "B00VVVGLLO",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00VVVGLLO",
    "title": "The Liar&rsquo;s Key",
    "author": "Mark Lawrence",
    "narrator": "Sean Ohlendorf",
@@ -2434,6 +2704,8 @@
   },
   {
    "asin": "B00KH4JVDQ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00KH4JVDQ",
    "title": "Prince of Fools",
    "author": "Mark Lawrence",
    "narrator": "Sean Ohlendorf",
@@ -2451,6 +2723,8 @@
   },
   {
    "asin": "B0763XDL9V",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0763XDL9V",
    "title": "Legion",
    "author": "Dan Abnett",
    "narrator": "David Timson",
@@ -2468,6 +2742,8 @@
   },
   {
    "asin": "B0765DBHPC",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0765DBHPC",
    "title": "Descent of Angels",
    "author": "Mitchel Scanlon",
    "narrator": "Gareth Armstrong",
@@ -2485,6 +2761,8 @@
   },
   {
    "asin": "B0765CPCNS",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0765CPCNS",
    "title": "Fulgrim",
    "author": "Graham McNeill",
    "narrator": "David Timson",
@@ -2502,6 +2780,8 @@
   },
   {
    "asin": "B076DLM5ZY",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B076DLM5ZY",
    "title": "The Flight of The Eisenstein",
    "author": "James Swallow",
    "narrator": "Jonathan Keeble",
@@ -2519,6 +2799,8 @@
   },
   {
    "asin": "1774240289",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1774240289",
    "title": "Sky Rider",
    "author": "Terry Mancour",
    "narrator": "Finty Williams",
@@ -2536,6 +2818,8 @@
   },
   {
    "asin": "1774240041",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1774240041",
    "title": "Hawklady",
    "author": "Terry Mancour",
    "narrator": "Finty Williams",
@@ -2553,6 +2837,8 @@
   },
   {
    "asin": "1772309427",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1772309427",
    "title": "Hawkmaiden",
    "author": "Terry Mancour",
    "narrator": "Finty Williams",
@@ -2570,6 +2856,8 @@
   },
   {
    "asin": "B07DVKDL13",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07DVKDL13",
    "title": "Monster Hunter Memoirs: Saints",
    "author": "Larry Correia, John Ringo",
    "narrator": "Oliver Wyman",
@@ -2587,6 +2875,8 @@
   },
   {
    "asin": "103940006X",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/103940006X",
    "title": "Footwizard",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -2604,6 +2894,8 @@
   },
   {
    "asin": "1039404367",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1039404367",
    "title": "Soulbrand",
    "author": "Andrew Rowe",
    "narrator": "Nick Podehl",
@@ -2621,6 +2913,8 @@
   },
   {
    "asin": "0063010305",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/0063010305",
    "title": "The Good, the Bad, and the Undead",
    "author": "Kim Harrison",
    "narrator": "Marguerite Gavin",
@@ -2638,6 +2932,8 @@
   },
   {
    "asin": "125024188X",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/125024188X",
    "title": "Fate of the Fallen",
    "author": "Kel Kade",
    "narrator": "Nick Podehl",
@@ -2655,6 +2951,8 @@
   },
   {
    "asin": "125075514X",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/125075514X",
    "title": "Destiny of the Dead",
    "author": "Kel Kade",
    "narrator": "Nick Podehl",
@@ -2672,6 +2970,8 @@
   },
   {
    "asin": "177424800X",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/177424800X",
    "title": "The Torch That Ignites the Stars",
    "author": "Andrew Rowe",
    "narrator": "Nick Podehl",
@@ -2689,6 +2989,8 @@
   },
   {
    "asin": "1039401112",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1039401112",
    "title": "The Twelve Plagues",
    "author": "Edward W. Robertson",
    "narrator": "Tim Gerard Reynolds",
@@ -2706,6 +3008,8 @@
   },
   {
    "asin": "1774248638",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1774248638",
    "title": "The Wizards of Sevendor",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -2723,6 +3027,8 @@
   },
   {
    "asin": "B01ETJK9BC",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B01ETJK9BC",
    "title": "Stealing Sorcery",
    "author": "Andrew Rowe",
    "narrator": "Nick Podehl",
@@ -2740,6 +3046,8 @@
   },
   {
    "asin": "1774242257",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1774242257",
    "title": "Defying Destiny",
    "author": "Andrew Rowe",
    "narrator": "Nick Podehl",
@@ -2757,6 +3065,8 @@
   },
   {
    "asin": "0063010283",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/0063010283",
    "title": "Dead Witch Walking",
    "author": "Kim Harrison",
    "narrator": "Marguerite Gavin",
@@ -2774,6 +3084,8 @@
   },
   {
    "asin": "B01DKTOOJ0",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B01DKTOOJ0",
    "title": "Forging Divinity",
    "author": "Andrew Rowe",
    "narrator": "Nick Podehl",
@@ -2791,6 +3103,8 @@
   },
   {
    "asin": "B08QSM8ZD5",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B08QSM8ZD5",
    "title": "Students of the Order",
    "author": "Edward W. Robertson, Sam Lang",
    "narrator": "Michael Kramer",
@@ -2808,6 +3122,8 @@
   },
   {
    "asin": "B08L6SLX62",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B08L6SLX62",
    "title": "Destroyer of Worlds",
    "author": "Larry Correia",
    "narrator": "Tim Gerard Reynolds",
@@ -2825,6 +3141,8 @@
   },
   {
    "asin": "1774244993",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1774244993",
    "title": "Arcanist",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -2842,6 +3160,8 @@
   },
   {
    "asin": "1774246708",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1774246708",
    "title": "The Black Book",
    "author": "Edward W. Robertson",
    "narrator": "Tim Gerard Reynolds",
@@ -2859,6 +3179,8 @@
   },
   {
    "asin": "B076B516QM",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B076B516QM",
    "title": "Galaxy in Flames",
    "author": "Ben Counter",
    "narrator": "Toby Longworth",
@@ -2876,6 +3198,8 @@
   },
   {
    "asin": "1774244934",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1774244934",
    "title": "The Road to Sevendor",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -2893,6 +3217,8 @@
   },
   {
    "asin": "1774243032",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1774243032",
    "title": "Diamantine",
    "author": "Andrew Rowe",
    "narrator": "Nick Podehl",
@@ -2910,6 +3236,8 @@
   },
   {
    "asin": "B07VYMVXK6",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07VYMVXK6",
    "title": "Starsight",
    "author": "Brandon Sanderson",
    "narrator": "Suzy Jackson",
@@ -2927,6 +3255,8 @@
   },
   {
    "asin": "B07H7Q5D3M",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07H7Q5D3M",
    "title": "Skyward",
    "author": "Brandon Sanderson",
    "narrator": "Suzy Jackson",
@@ -2944,6 +3274,8 @@
   },
   {
    "asin": "0593343050",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/0593343050",
    "title": "Battle Ground",
    "author": "Jim Butcher",
    "narrator": "James Marsters",
@@ -2961,6 +3293,8 @@
   },
   {
    "asin": "B087D5ZZ8Z",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B087D5ZZ8Z",
    "title": "Forget Nothing",
    "author": "Jason Anspach, Michelle C. Meyers",
    "narrator": "Khristine Hvam",
@@ -2978,6 +3312,8 @@
   },
   {
    "asin": "1774243326",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1774243326",
    "title": "Thaumaturge",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -2995,6 +3331,8 @@
   },
   {
    "asin": "1250759781",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1250759781",
    "title": "Rhythm of War",
    "author": "Brandon Sanderson",
    "narrator": "Kate Reading, Michael Kramer",
@@ -3012,6 +3350,8 @@
   },
   {
    "asin": "0593165764",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/0593165764",
    "title": "Smoke Bitten",
    "author": "Patricia Briggs",
    "narrator": "Lorelei King",
@@ -3029,6 +3369,8 @@
   },
   {
    "asin": "0593290704",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/0593290704",
    "title": "Peace Talks",
    "author": "Jim Butcher",
    "narrator": "James Marsters",
@@ -3046,6 +3388,8 @@
   },
   {
    "asin": "1774241579",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1774241579",
    "title": "What Lies Beyond",
    "author": "Edward W. Robertson",
    "narrator": "Tim Gerard Reynolds",
@@ -3063,6 +3407,8 @@
   },
   {
    "asin": "1774241501",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1774241501",
    "title": "Necromancer",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -3080,6 +3426,8 @@
   },
   {
    "asin": "1774241676",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1774241676",
    "title": "The Light of All That Falls",
    "author": "James Islington",
    "narrator": "Michael Kramer",
@@ -3097,6 +3445,8 @@
   },
   {
    "asin": "1774241064",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1774241064",
    "title": "The Sealed Citadel",
    "author": "Edward W. Robertson",
    "narrator": "Tim Gerard Reynolds",
@@ -3114,6 +3464,8 @@
   },
   {
    "asin": "B07N93P28H",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07N93P28H",
    "title": "House of Assassins",
    "author": "Larry Correia",
    "narrator": "Tim Gerard Reynolds",
@@ -3131,26 +3483,29 @@
   },
   {
    "asin": "B07P6MWXRC",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07P6MWXRC",
    "title": "A Throne of Bones",
-   "author": null,
+   "author": "Vox Day",
    "narrator": null,
    "purchased": "2019-10-28",
    "genre": "Fantasy",
    "audibleGenre": "Fantasy",
-   "series": null,
-   "seriesPart": null,
+   "series": "Arts of Dark and Light",
+   "seriesPart": 1,
    "minutes": null,
    "cover": null,
    "coverId": null,
    "returned": null,
    "extraPurchases": [],
    "flags": [
-    "manual",
-    "noauthor"
+    "manual"
    ]
   },
   {
    "asin": "B012BTSWG6",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B012BTSWG6",
    "title": "Son of the Black Sword",
    "author": "Larry Correia",
    "narrator": "Tim Gerard Reynolds",
@@ -3168,6 +3523,8 @@
   },
   {
    "asin": "1772309419",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1772309419",
    "title": "Shadowmage",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -3185,6 +3542,8 @@
   },
   {
    "asin": "1772308641",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1772308641",
    "title": "Court Wizard",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -3202,6 +3561,8 @@
   },
   {
    "asin": "B07L6P2KW7",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07L6P2KW7",
    "title": "Enchanter",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -3219,6 +3580,8 @@
   },
   {
    "asin": "B07DX6Q4JH",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07DX6Q4JH",
    "title": "Journeymage",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -3236,6 +3599,8 @@
   },
   {
    "asin": "B07BN33KPK",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07BN33KPK",
    "title": "High Mage",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -3253,6 +3618,8 @@
   },
   {
    "asin": "B076VW7L7C",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B076VW7L7C",
    "title": "Knights Magi",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -3270,6 +3637,8 @@
   },
   {
    "asin": "B073VW3VPH",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B073VW3VPH",
    "title": "Magelord",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -3287,6 +3656,8 @@
   },
   {
    "asin": "B06ZY7KGQM",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B06ZY7KGQM",
    "title": "Warmage",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -3304,6 +3675,8 @@
   },
   {
    "asin": "B003EI2V2A",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B003EI2V2A",
    "title": "Skinwalker",
    "author": "Faith Hunter",
    "narrator": "Khristine Hvam",
@@ -3321,6 +3694,8 @@
   },
   {
    "asin": "B07V6FPQ46",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07V6FPQ46",
    "title": "Monster Hunter Guardian",
    "author": "Larry Correia, Sarah A. Hoyt",
    "narrator": "Brynne Blake",
@@ -3338,6 +3713,8 @@
   },
   {
    "asin": "B01N264EEK",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B01N264EEK",
    "title": "Spellmonger",
    "author": "Terry Mancour",
    "narrator": "John Lee",
@@ -3355,6 +3732,8 @@
   },
   {
    "asin": "1772309117",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1772309117",
    "title": "Six Sacred Swords",
    "author": "Andrew Rowe",
    "narrator": "Nick Podehl",
@@ -3372,6 +3751,8 @@
   },
   {
    "asin": "B07MDDG8PZ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07MDDG8PZ",
    "title": "On The Shoulders of Titans",
    "author": "Andrew Rowe",
    "narrator": "Nick Podehl",
@@ -3389,6 +3770,8 @@
   },
   {
    "asin": "B072YT93QD",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B072YT93QD",
    "title": "Sufficiently Advanced Magic",
    "author": "Andrew Rowe",
    "narrator": "Nick Podehl",
@@ -3406,6 +3789,8 @@
   },
   {
    "asin": "069819604X",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/069819604X",
    "title": "Storm Cursed",
    "author": "Patricia Briggs",
    "narrator": "Lorelei King",
@@ -3423,6 +3808,8 @@
   },
   {
    "asin": "B01MYVARKX",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B01MYVARKX",
    "title": "Silence Fallen",
    "author": "Patricia Briggs",
    "narrator": "Lorelei King, George Newbern",
@@ -3440,6 +3827,8 @@
   },
   {
    "asin": "B01BI1X19Q",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B01BI1X19Q",
    "title": "Fire Touched",
    "author": "Patricia Briggs",
    "narrator": "Lorelei King",
@@ -3453,12 +3842,12 @@
    "coverId": null,
    "returned": null,
    "extraPurchases": [],
-   "flags": [
-    "manual"
-   ]
+   "flags": []
   },
   {
    "asin": "B00I2WV0WA",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00I2WV0WA",
    "title": "Night Broken",
    "author": "Patricia Briggs",
    "narrator": "Lorelei King",
@@ -3472,12 +3861,12 @@
    "coverId": null,
    "returned": null,
    "extraPurchases": [],
-   "flags": [
-    "manual"
-   ]
+   "flags": []
   },
   {
    "asin": "B07DL9SMWS",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07DL9SMWS",
    "title": "Your Money or Your Life",
    "author": "Vicki Robin, Joe Dominguez, Mr. Money Mustache - introduction",
    "narrator": "Vicki Robin",
@@ -3495,6 +3884,8 @@
   },
   {
    "asin": "B00BL7ZMTK",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00BL7ZMTK",
    "title": "Frost Burned",
    "author": "Patricia Briggs",
    "narrator": "Lorelei King",
@@ -3512,6 +3903,8 @@
   },
   {
    "asin": "B004O416JW",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B004O416JW",
    "title": "River Marked",
    "author": "Patricia Briggs",
    "narrator": "Lorelei King",
@@ -3529,6 +3922,8 @@
   },
   {
    "asin": "B003C1UL94",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B003C1UL94",
    "title": "Silver Borne",
    "author": "Patricia Briggs",
    "narrator": "Lorelei King",
@@ -3546,6 +3941,8 @@
   },
   {
    "asin": "B002V9Z4SQ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V9Z4SQ",
    "title": "Bone Crossed",
    "author": "Patricia Briggs",
    "narrator": "Lorelei King",
@@ -3563,6 +3960,8 @@
   },
   {
    "asin": "B002V1AG7S",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V1AG7S",
    "title": "Blood Bound",
    "author": "Patricia Briggs",
    "narrator": "Lorelei King",
@@ -3580,6 +3979,8 @@
   },
   {
    "asin": "B002V5GNJ4",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V5GNJ4",
    "title": "Moon Called",
    "author": "Patricia Briggs",
    "narrator": "Lorelei King",
@@ -3597,6 +3998,8 @@
   },
   {
    "asin": "B00FFEOAFW",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00FFEOAFW",
    "title": "Emperor of Thorns",
    "author": "Mark Lawrence",
    "narrator": "Joe Jameson",
@@ -3614,6 +4017,8 @@
   },
   {
    "asin": "B076QXRJCZ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B076QXRJCZ",
    "title": "Besieged",
    "author": "Kevin Hearne",
    "narrator": "Christopher Ragland",
@@ -3631,6 +4036,8 @@
   },
   {
    "asin": "B07GX2GD4N",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07GX2GD4N",
    "title": "The 3-Day Effect",
    "author": "Florence Williams",
    "narrator": "Florence Williams",
@@ -3648,6 +4055,8 @@
   },
   {
    "asin": "B07QR7FJFP",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07QR7FJFP",
    "title": "Black Crow, White Snow",
    "author": "Michael Livingston",
    "narrator": "Janina Edwards",
@@ -3665,6 +4074,8 @@
   },
   {
    "asin": "B008PUEJHW",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B008PUEJHW",
    "title": "King of Thorns",
    "author": "Mark Lawrence",
    "narrator": "Joe Jameson",
@@ -3682,6 +4093,8 @@
   },
   {
    "asin": "B008PTRCKE",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B008PTRCKE",
    "title": "Prince of Thorns: Broken Empire 1",
    "author": "Mark Lawrence",
    "narrator": "Joe Jameson",
@@ -3699,6 +4112,8 @@
   },
   {
    "asin": "B07BL36M8S",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07BL36M8S",
    "title": "Scourged",
    "author": "Kevin Hearne",
    "narrator": "Christopher Ragland",
@@ -3716,6 +4131,8 @@
   },
   {
    "asin": "B00VTQ8TO8",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00VTQ8TO8",
    "title": "Three Slices",
    "author": "Kevin Hearne, Chuck Wendig, Delilah Dawson",
    "narrator": "Luke Daniels",
@@ -3733,6 +4150,8 @@
   },
   {
    "asin": "B00KRL8KB8",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00KRL8KB8",
    "title": "Shattered",
    "author": "Kevin Hearne",
    "narrator": "Christopher Ragland",
@@ -3751,12 +4170,12 @@
      "returned": "2019-04-06"
     }
    ],
-   "flags": [
-    "duplicate"
-   ]
+   "flags": []
   },
   {
    "asin": "B018W612C8",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B018W612C8",
    "title": "Staked",
    "author": "Kevin Hearne",
    "narrator": "Christopher Ragland",
@@ -3774,6 +4193,8 @@
   },
   {
    "asin": "B0764KXG1W",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0764KXG1W",
    "title": "False Gods",
    "author": "Graham McNeill",
    "narrator": "Toby Longworth",
@@ -3791,6 +4212,8 @@
   },
   {
    "asin": "B00D9171T0",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00D9171T0",
    "title": "Hunted",
    "author": "Kevin Hearne",
    "narrator": "Christopher Ragland",
@@ -3808,6 +4231,8 @@
   },
   {
    "asin": "B0764LBS4B",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0764LBS4B",
    "title": "Horus Rising",
    "author": "Dan Abnett",
    "narrator": "Toby Longworth",
@@ -3825,6 +4250,8 @@
   },
   {
    "asin": "B074MJDNFC",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B074MJDNFC",
    "title": "An Echo of Things to Come",
    "author": "James Islington",
    "narrator": "Michael Kramer",
@@ -3842,6 +4269,8 @@
   },
   {
    "asin": "B00D916OAM",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00D916OAM",
    "title": "Trapped",
    "author": "Kevin Hearne",
    "narrator": "Christopher Ragland",
@@ -3859,6 +4288,8 @@
   },
   {
    "asin": "B00FQSD2CY",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00FQSD2CY",
    "title": "Two Ravens and One Crow",
    "author": "Kevin Hearne",
    "narrator": "Christopher Ragland",
@@ -3876,6 +4307,8 @@
   },
   {
    "asin": "B00D916LXW",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00D916LXW",
    "title": "Tricked",
    "author": "Kevin Hearne",
    "narrator": "Christopher Ragland",
@@ -3893,6 +4326,8 @@
   },
   {
    "asin": "B00CXS0G9C",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00CXS0G9C",
    "title": "Hexed",
    "author": "Kevin Hearne",
    "narrator": "Christopher Ragland",
@@ -3910,6 +4345,8 @@
   },
   {
    "asin": "B00CXS22US",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00CXS22US",
    "title": "Hammered",
    "author": "Kevin Hearne",
    "narrator": "Christopher Ragland",
@@ -3927,6 +4364,8 @@
   },
   {
    "asin": "1772306967",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1772306967",
    "title": "Crusade",
    "author": "Daniel M. Ford",
    "narrator": "Michael Kramer",
@@ -3944,6 +4383,8 @@
   },
   {
    "asin": "B0765DRW89",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0765DRW89",
    "title": "Stillbright",
    "author": "Daniel M. Ford",
    "narrator": "Michael Kramer",
@@ -3961,6 +4402,8 @@
   },
   {
    "asin": "B00CLUO5X0",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00CLUO5X0",
    "title": "Hounded",
    "author": "Kevin Hearne",
    "narrator": "Christopher Ragland",
@@ -3978,6 +4421,8 @@
   },
   {
    "asin": "B071L725Y6",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B071L725Y6",
    "title": "Ordination",
    "author": "Daniel M. Ford",
    "narrator": "Michael Kramer",
@@ -3995,6 +4440,8 @@
   },
   {
    "asin": "1772307505",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/1772307505",
    "title": "Kingdoms and Chaos",
    "author": "Kel Kade",
    "narrator": "Nick Podehl",
@@ -4012,6 +4459,8 @@
   },
   {
    "asin": "B00MOXI512",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00MOXI512",
    "title": "The Slow Regard of Silent Things",
    "author": "Patrick Rothfuss",
    "narrator": "Patrick Rothfuss",
@@ -4029,6 +4478,8 @@
   },
   {
    "asin": "B00S5AAHLY",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00S5AAHLY",
    "title": "The Shadow of What Was Lost",
    "author": "James Islington",
    "narrator": "Michael Kramer",
@@ -4046,6 +4497,8 @@
   },
   {
    "asin": "B07HPBSW9S",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07HPBSW9S",
    "title": "The Spear of Stars",
    "author": "Edward W. Robertson",
    "narrator": "Tim Gerard Reynolds",
@@ -4063,6 +4516,8 @@
   },
   {
    "asin": "B075QL2BHN",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B075QL2BHN",
    "title": "Hereticus",
    "author": "Dan Abnett",
    "narrator": "Toby Longworth",
@@ -4080,6 +4535,8 @@
   },
   {
    "asin": "B075QN2PZW",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B075QN2PZW",
    "title": "Malleus",
    "author": "Dan Abnett",
    "narrator": "Toby Longworth",
@@ -4097,6 +4554,8 @@
   },
   {
    "asin": "B07B3WPXMJ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07B3WPXMJ",
    "title": "Brief Cases",
    "author": "Jim Butcher",
    "narrator": "James Marsters, Jim Butcher, Cassandra Campbell, Julia Whelan, Oliver Wyman",
@@ -4114,6 +4573,8 @@
   },
   {
    "asin": "B075QLD2C2",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B075QLD2C2",
    "title": "Xenos",
    "author": "Dan Abnett",
    "narrator": "Toby Longworth",
@@ -4131,6 +4592,8 @@
   },
   {
    "asin": "B079H55VQV",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B079H55VQV",
    "title": "Ravenor Rogue",
    "author": "Dan Abnett",
    "narrator": "Toby Longworth",
@@ -4148,6 +4611,8 @@
   },
   {
    "asin": "B07BQXC1HZ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07BQXC1HZ",
    "title": "Ravenor Returned",
    "author": "Dan Abnett",
    "narrator": "Toby Longworth",
@@ -4165,6 +4630,8 @@
   },
   {
    "asin": "B0089ZO82Y",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0089ZO82Y",
    "title": "The Dark Tower VII: The Dark Tower",
    "author": "Stephen King",
    "narrator": "George Guidall",
@@ -4182,6 +4649,8 @@
   },
   {
    "asin": "B07BR4CL2M",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07BR4CL2M",
    "title": "Ravenor",
    "author": "Dan Abnett",
    "narrator": "Toby Longworth",
@@ -4199,6 +4668,8 @@
   },
   {
    "asin": "B07CTT3BGQ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B07CTT3BGQ",
    "title": "The Devastation of Baal",
    "author": "Guy Haley",
    "narrator": "Gareth Armstrong",
@@ -4216,6 +4687,8 @@
   },
   {
    "asin": "B002V5CO3I",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V5CO3I",
    "title": "Song of Susannah",
    "author": "Stephen King",
    "narrator": "George Guidall",
@@ -4233,6 +4706,8 @@
   },
   {
    "asin": "B002UUMS76",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002UUMS76",
    "title": "Wolves of the Calla",
    "author": "Stephen King",
    "narrator": "George Guidall",
@@ -4250,6 +4725,8 @@
   },
   {
    "asin": "B007T9UTOW",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B007T9UTOW",
    "title": "The Wind through the Keyhole",
    "author": "Stephen King",
    "narrator": "Stephen King",
@@ -4267,6 +4744,8 @@
   },
   {
    "asin": "B002V1CB2Q",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V1CB2Q",
    "title": "I Am Legend",
    "author": "Richard Matheson",
    "narrator": "Robertson Dean",
@@ -4284,6 +4763,8 @@
   },
   {
    "asin": "B0788BD32G",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0788BD32G",
    "title": "Battle Mage",
    "author": "Peter A. Flannery",
    "narrator": "RD Watson",
@@ -4301,6 +4782,8 @@
   },
   {
    "asin": "B074VHGZC4",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B074VHGZC4",
    "title": "The Monster Hunter Files",
    "author": "Larry Correia, Jonathan Maberry, Faith Hunter, Jim Butcher",
    "narrator": "Oliver Wyman, Brynne Blake, Khristine Hvam",
@@ -4318,6 +4801,8 @@
   },
   {
    "asin": "B06WRV7HVN",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B06WRV7HVN",
    "title": "Dragonvein, Book Five",
    "author": "Brian D. Anderson",
    "narrator": "Derek Perkins",
@@ -4335,6 +4820,8 @@
   },
   {
    "asin": "B077NGB78R",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B077NGB78R",
    "title": "Legends of Ahn",
    "author": "Kel Kade",
    "narrator": "Nick Podehl",
@@ -4352,6 +4839,8 @@
   },
   {
    "asin": "B0718Z5K4C",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0718Z5K4C",
    "title": "Oathbringer",
    "author": "Brandon Sanderson",
    "narrator": "Michael Kramer, Kate Reading",
@@ -4369,6 +4858,8 @@
   },
   {
    "asin": "B019NNX0G0",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B019NNX0G0",
    "title": "Dark Tower IV",
    "author": "Stephen King",
    "narrator": "Frank Muller",
@@ -4386,6 +4877,8 @@
   },
   {
    "asin": "B019NNT1G8",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B019NNT1G8",
    "title": "Dark Tower III",
    "author": "Stephen King",
    "narrator": "Frank Muller",
@@ -4403,6 +4896,8 @@
   },
   {
    "asin": "B008AX6HGK",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B008AX6HGK",
    "title": "The Dark Tower II: The Drawing Of The Three",
    "author": "Stephen King",
    "narrator": "Frank Muller",
@@ -4420,6 +4915,8 @@
   },
   {
    "asin": "B0744MBFH3",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0744MBFH3",
    "title": "Monster Hunter Siege",
    "author": "Larry Correia",
    "narrator": "Oliver Wyman",
@@ -4437,6 +4934,8 @@
   },
   {
    "asin": "B008ALC7JS",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B008ALC7JS",
    "title": "The Dark Tower I: The Gunslinger",
    "author": "Stephen King",
    "narrator": "George Guidall",
@@ -4454,6 +4953,8 @@
   },
   {
    "asin": "B073FWSV9S",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B073FWSV9S",
    "title": "The Light of Life",
    "author": "Edward W. Robertson",
    "narrator": "Tim Gerard Reynolds",
@@ -4471,9 +4972,11 @@
   },
   {
    "asin": "B071JG6JD4",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B071JG6JD4",
    "title": "Twinborn Chronicles",
-   "author": null,
-   "narrator": null,
+   "author": "J.S. Morin",
+   "narrator": "Mikael Naramore",
    "purchased": "2017-06-30",
    "genre": "Fantasy",
    "audibleGenre": "Fantasy",
@@ -4484,13 +4987,12 @@
    "coverId": null,
    "returned": null,
    "extraPurchases": [],
-   "flags": [
-    "manual",
-    "noauthor"
-   ]
+   "flags": []
   },
   {
    "asin": "B01MROQAKE",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B01MROQAKE",
    "title": "Monster Hunter Memoirs: Sinners",
    "author": "Larry Correia, John Ringo",
    "narrator": "Oliver Wyman",
@@ -4508,6 +5010,8 @@
   },
   {
    "asin": "B06XY9VY5Z",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B06XY9VY5Z",
    "title": "The Wound of the World",
    "author": "Edward W. Robertson",
    "narrator": "Tim Gerard Reynolds",
@@ -4525,6 +5029,8 @@
   },
   {
    "asin": "B01IRV53DW",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B01IRV53DW",
    "title": "Monster Hunter Memoirs: Grunge",
    "author": "John Ringo, Larry Correia",
    "narrator": "Oliver Wyman",
@@ -4542,6 +5048,8 @@
   },
   {
    "asin": "B007Q37QD8",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B007Q37QD8",
    "title": "The Wise Man's Fear",
    "author": "Patrick Rothfuss",
    "narrator": "Rupert Degas",
@@ -4559,6 +5067,8 @@
   },
   {
    "asin": "B0118MSZCI",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0118MSZCI",
    "title": "The Crippled God",
    "author": "Steven Erikson",
    "narrator": "Michael Page",
@@ -4576,6 +5086,8 @@
   },
   {
    "asin": "B002UZMLXM",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002UZMLXM",
    "title": "The Name of the Wind",
    "author": "Patrick Rothfuss",
    "narrator": "Nick Podehl",
@@ -4593,6 +5105,8 @@
   },
   {
    "asin": "B01LY6GN0F",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B01LY6GN0F",
    "title": "Reign of Madness",
    "author": "Kel Kade",
    "narrator": "Nick Podehl",
@@ -4610,6 +5124,8 @@
   },
   {
    "asin": "B01KIOP1QA",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B01KIOP1QA",
    "title": "Free the Darkness",
    "author": "Kel Kade",
    "narrator": "Nick Podehl",
@@ -4627,6 +5143,8 @@
   },
   {
    "asin": "B01F65TBP8",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B01F65TBP8",
    "title": "The Silver Thief",
    "author": "Edward W. Robertson",
    "narrator": "Tim Gerard Reynolds",
@@ -4644,6 +5162,8 @@
   },
   {
    "asin": "B01KIRNWHM",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B01KIRNWHM",
    "title": "Dragonvein: Book Four",
    "author": "Brian D. Anderson",
    "narrator": "Derek Perkins",
@@ -4661,6 +5181,8 @@
   },
   {
    "asin": "B019P7DD8E",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B019P7DD8E",
    "title": "Dragonvein: Book Three",
    "author": "Brian D. Anderson",
    "narrator": "Derek Perkins",
@@ -4678,6 +5200,8 @@
   },
   {
    "asin": "B0147QLCJK",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0147QLCJK",
    "title": "Dragonvein: Book Two",
    "author": "Brian D. Anderson",
    "narrator": "Derek Perkins",
@@ -4695,6 +5219,8 @@
   },
   {
    "asin": "B00YALA2IU",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00YALA2IU",
    "title": "Dragonvein, Book One",
    "author": "Brian D. Anderson",
    "narrator": "Derek Perkins",
@@ -4712,6 +5238,8 @@
   },
   {
    "asin": "B01C4OKWZW",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B01C4OKWZW",
    "title": "The Hungering Saga Complete",
    "author": "Heath Pfaff",
    "narrator": "Paul J McSorley",
@@ -4729,9 +5257,11 @@
   },
   {
    "asin": "B00NEZVDVI",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00NEZVDVI",
    "title": "The Godling Chronicles: The Reborn King, Book 6",
-   "author": null,
-   "narrator": null,
+   "author": "Brian D. Anderson",
+   "narrator": "Derek Perkins",
    "purchased": "2016-06-27",
    "genre": "Fantasy",
    "audibleGenre": "Fantasy",
@@ -4742,16 +5272,15 @@
    "coverId": null,
    "returned": null,
    "extraPurchases": [],
-   "flags": [
-    "manual",
-    "noauthor"
-   ]
+   "flags": []
   },
   {
    "asin": "B00IA86T0O",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00IA86T0O",
    "title": "The Godling Chronicles: Madness of the Fallen, Book 5",
-   "author": null,
-   "narrator": null,
+   "author": "Brian D. Anderson",
+   "narrator": "Derek Perkins",
    "purchased": "2016-06-02",
    "genre": "Fantasy",
    "audibleGenre": "Fantasy",
@@ -4762,16 +5291,15 @@
    "coverId": null,
    "returned": null,
    "extraPurchases": [],
-   "flags": [
-    "manual",
-    "noauthor"
-   ]
+   "flags": []
   },
   {
    "asin": "B00MTTG9NC",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00MTTG9NC",
    "title": "The Jewel of Dantenos",
-   "author": null,
-   "narrator": null,
+   "author": "Brian D. Anderson",
+   "narrator": "Derek Perkins",
    "purchased": "2016-05-23",
    "genre": "Fantasy",
    "audibleGenre": "Fantasy",
@@ -4782,16 +5310,15 @@
    "coverId": null,
    "returned": null,
    "extraPurchases": [],
-   "flags": [
-    "manual",
-    "noauthor"
-   ]
+   "flags": []
   },
   {
    "asin": "B00GS6O1EG",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00GS6O1EG",
    "title": "The Godling Chronicles: A Trial of Souls, Book 4",
-   "author": null,
-   "narrator": null,
+   "author": "Brian D. Anderson",
+   "narrator": "Derek Perkins",
    "purchased": "2016-05-23",
    "genre": "Fantasy",
    "audibleGenre": "Fantasy",
@@ -4802,16 +5329,15 @@
    "coverId": null,
    "returned": null,
    "extraPurchases": [],
-   "flags": [
-    "manual",
-    "noauthor"
-   ]
+   "flags": []
   },
   {
    "asin": "B00ZSUALOM",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00ZSUALOM",
    "title": "The Godling Chronicles Omnibus",
-   "author": null,
-   "narrator": null,
+   "author": "Brian D. Anderson",
+   "narrator": "Derek Perkins",
    "purchased": "2016-05-10",
    "genre": "Fantasy",
    "audibleGenre": "Fantasy",
@@ -4822,13 +5348,12 @@
    "coverId": null,
    "returned": null,
    "extraPurchases": [],
-   "flags": [
-    "manual",
-    "noauthor"
-   ]
+   "flags": []
   },
   {
    "asin": "B0189QQXRA",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0189QQXRA",
    "title": "The Bands of Mourning",
    "author": "Brandon Sanderson",
    "narrator": "Michael Kramer",
@@ -4846,6 +5371,8 @@
   },
   {
    "asin": "B005ZUI3OA",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B005ZUI3OA",
    "title": "The Alloy of Law",
    "author": "Brandon Sanderson",
    "narrator": "Michael Kramer",
@@ -4863,6 +5390,8 @@
   },
   {
    "asin": "B014LLCT7A",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B014LLCT7A",
    "title": "Shadows of Self",
    "author": "Brandon Sanderson",
    "narrator": "Michael Kramer",
@@ -4880,6 +5409,8 @@
   },
   {
    "asin": "B0055DNUZ4",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0055DNUZ4",
    "title": "Miss Peregrine's Home for Peculiar Children",
    "author": "Ransom Riggs",
    "narrator": "Jesse Bernstein",
@@ -4897,6 +5428,8 @@
   },
   {
    "asin": "B01AGMPGQY",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B01AGMPGQY",
    "title": "The Red Sea",
    "author": "Edward W. Robertson",
    "narrator": "Tim Gerard Reynolds",
@@ -4914,6 +5447,8 @@
   },
   {
    "asin": "B00W8DAB9M",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00W8DAB9M",
    "title": "The Cycle of Arawn",
    "author": "Edward W. Robertson",
    "narrator": "Tim Gerard Reynolds",
@@ -4931,6 +5466,8 @@
   },
   {
    "asin": "B002VA9IKK",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002VA9IKK",
    "title": "The Hero of Ages",
    "author": "Brandon Sanderson",
    "narrator": "Michael Kramer",
@@ -4948,6 +5485,8 @@
   },
   {
    "asin": "B002V5GLQ4",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V5GLQ4",
    "title": "The Well of Ascension",
    "author": "Brandon Sanderson",
    "narrator": "Michael Kramer",
@@ -4965,6 +5504,8 @@
   },
   {
    "asin": "B002V0QCYU",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V0QCYU",
    "title": "The Final Empire",
    "author": "Brandon Sanderson",
    "narrator": "Michael Kramer",
@@ -4982,6 +5523,8 @@
   },
   {
    "asin": "B0128B9MHK",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0128B9MHK",
    "title": "Working for Bigfoot",
    "author": "Jim Butcher",
    "narrator": "James Marsters",
@@ -4999,6 +5542,8 @@
   },
   {
    "asin": "B0143O99FK",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0143O99FK",
    "title": "The Aeronaut's Windlass",
    "author": "Jim Butcher",
    "narrator": "Euan Morton",
@@ -5016,6 +5561,8 @@
   },
   {
    "asin": "B00HWF0MHW",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00HWF0MHW",
    "title": "Words of Radiance",
    "author": "Brandon Sanderson",
    "narrator": "Michael Kramer, Kate Reading",
@@ -5033,6 +5580,8 @@
   },
   {
    "asin": "B003ZWFO7E",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B003ZWFO7E",
    "title": "The Way of Kings",
    "author": "Brandon Sanderson",
    "narrator": "Michael Kramer, Kate Reading",
@@ -5050,6 +5599,8 @@
   },
   {
    "asin": "B0036NA8QO",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0036NA8QO",
    "title": "First Lord's Fury",
    "author": "Jim Butcher",
    "narrator": "Kate Reading",
@@ -5067,6 +5618,8 @@
   },
   {
    "asin": "B002V0KCYG",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V0KCYG",
    "title": "Princeps' Fury",
    "author": "Jim Butcher",
    "narrator": "Kate Reading",
@@ -5084,6 +5637,8 @@
   },
   {
    "asin": "B002V5CMK8",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V5CMK8",
    "title": "Captain's Fury",
    "author": "Jim Butcher",
    "narrator": "Kate Reading",
@@ -5101,6 +5656,8 @@
   },
   {
    "asin": "B002V0TG16",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V0TG16",
    "title": "Cursor's Fury",
    "author": "Jim Butcher",
    "narrator": "Kate Reading",
@@ -5118,6 +5675,8 @@
   },
   {
    "asin": "B002V18EH2",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V18EH2",
    "title": "Academ's Fury",
    "author": "Jim Butcher",
    "narrator": "Kate Reading",
@@ -5135,6 +5694,8 @@
   },
   {
    "asin": "B002V8HC7I",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V8HC7I",
    "title": "Furies of Calderon",
    "author": "Jim Butcher",
    "narrator": "Kate Reading",
@@ -5152,6 +5713,8 @@
   },
   {
    "asin": "B00U0IPOSK",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00U0IPOSK",
    "title": "Dust of Dreams",
    "author": "Steven Erikson",
    "narrator": "Michael Page",
@@ -5169,6 +5732,8 @@
   },
   {
    "asin": "B00UO410TW",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00UO410TW",
    "title": "Toll the Hounds",
    "author": "Steven Erikson",
    "narrator": "Michael Page",
@@ -5186,6 +5751,8 @@
   },
   {
    "asin": "B005LR9170",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B005LR9170",
    "title": "World of Warcraft: Wolfheart",
    "author": "Richard A. Knaak",
    "narrator": "Scott Brick",
@@ -5203,6 +5770,8 @@
   },
   {
    "asin": "B00M4LRBY6",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00M4LRBY6",
    "title": "Reaper's Gale",
    "author": "Steven Erikson",
    "narrator": "Michael Page",
@@ -5220,6 +5789,8 @@
   },
   {
    "asin": "B00JDQ99IQ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00JDQ99IQ",
    "title": "Skin Game",
    "author": "Jim Butcher",
    "narrator": "James Marsters",
@@ -5237,6 +5808,8 @@
   },
   {
    "asin": "B009Z485KY",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B009Z485KY",
    "title": "Cold Days",
    "author": "Jim Butcher",
    "narrator": "James Marsters",
@@ -5254,6 +5827,8 @@
   },
   {
    "asin": "B00UVR0LWY",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00UVR0LWY",
    "title": "Ghost Story",
    "author": "Jim Butcher",
    "narrator": "James Marsters",
@@ -5272,12 +5847,12 @@
      "returned": null
     }
    ],
-   "flags": [
-    "duplicate"
-   ]
+   "flags": []
   },
   {
    "asin": "B00EDOLTLS",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00EDOLTLS",
    "title": "Side Jobs: Stories from the Dresden Files",
    "author": "Jim Butcher",
    "narrator": "James Marsters",
@@ -5295,6 +5870,8 @@
   },
   {
    "asin": "B003DORDUU",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B003DORDUU",
    "title": "Changes: The Dresden Files, Book 12",
    "author": "Jim Butcher",
    "narrator": "James Marsters",
@@ -5312,6 +5889,8 @@
   },
   {
    "asin": "B002V0M1R2",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V0M1R2",
    "title": "Turn Coat",
    "author": "Jim Butcher",
    "narrator": "James Marsters",
@@ -5329,6 +5908,8 @@
   },
   {
    "asin": "B002V1L9VU",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V1L9VU",
    "title": "Small Favor",
    "author": "Jim Butcher",
    "narrator": "James Marsters",
@@ -5346,6 +5927,8 @@
   },
   {
    "asin": "B002V00SWM",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V00SWM",
    "title": "White Night",
    "author": "Jim Butcher",
    "narrator": "James Marsters",
@@ -5363,6 +5946,8 @@
   },
   {
    "asin": "B002VACELA",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002VACELA",
    "title": "Proven Guilty",
    "author": "Jim Butcher",
    "narrator": "James Marsters",
@@ -5380,6 +5965,8 @@
   },
   {
    "asin": "B003C24LIA",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B003C24LIA",
    "title": "Dead Beat",
    "author": "Jim Butcher",
    "narrator": "James Marsters",
@@ -5397,6 +5984,8 @@
   },
   {
    "asin": "B003C28QUE",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B003C28QUE",
    "title": "Blood Rites",
    "author": "Jim Butcher",
    "narrator": "James Marsters",
@@ -5414,6 +6003,8 @@
   },
   {
    "asin": "B002V189R2",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V189R2",
    "title": "Summer Knight",
    "author": "Jim Butcher",
    "narrator": "James Marsters",
@@ -5431,6 +6022,8 @@
   },
   {
    "asin": "B002V9ZE4A",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V9ZE4A",
    "title": "Death Masks",
    "author": "Jim Butcher",
    "narrator": "James Marsters",
@@ -5448,6 +6041,8 @@
   },
   {
    "asin": "B002V8MMPU",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V8MMPU",
    "title": "Grave Peril",
    "author": "Jim Butcher",
    "narrator": "James Marsters",
@@ -5465,6 +6060,8 @@
   },
   {
    "asin": "B002V1BII4",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V1BII4",
    "title": "Fool Moon",
    "author": "Jim Butcher",
    "narrator": "James Marsters",
@@ -5482,6 +6079,8 @@
   },
   {
    "asin": "B002V8KYMI",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V8KYMI",
    "title": "Storm Front",
    "author": "Jim Butcher",
    "narrator": "James Marsters",
@@ -5499,6 +6098,8 @@
   },
   {
    "asin": "B002UUFOSG",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002UUFOSG",
    "title": "New Spring",
    "author": "Robert Jordan",
    "narrator": "Kate Reading, Michael Kramer",
@@ -5516,6 +6117,8 @@
   },
   {
    "asin": "B008XM7LJK",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B008XM7LJK",
    "title": "World of Warcraft: Jaina Proudmoore: Tides of War",
    "author": "Christie Golden",
    "narrator": "Justine Eyre",
@@ -5533,6 +6136,8 @@
   },
   {
    "asin": "B00E3G4AFI",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00E3G4AFI",
    "title": "World of Warcraft: Vol'jin: Shadows of the Horde",
    "author": "Michael A. Stackpole",
    "narrator": "Scott Brick",
@@ -5550,6 +6155,8 @@
   },
   {
    "asin": "B00JXN67ZM",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00JXN67ZM",
    "title": "World of Warcraft: War Crimes",
    "author": "Christie Golden",
    "narrator": "Scott Brick",
@@ -5567,6 +6174,8 @@
   },
   {
    "asin": "B00GR97QJQ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00GR97QJQ",
    "title": "World of Warcraft: Dawn of the Aspects",
    "author": "Richard A. Knaak",
    "narrator": "Scott Brick",
@@ -5584,6 +6193,8 @@
   },
   {
    "asin": "B0081TGOWK",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0081TGOWK",
    "title": "Diablo III: The Order",
    "author": "Nate Kenyon",
    "narrator": "Scott Brick",
@@ -5601,6 +6212,8 @@
   },
   {
    "asin": "B00K8BXRM4",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00K8BXRM4",
    "title": "Monster Hunter Nemesis",
    "author": "Larry Correia",
    "narrator": "Oliver Wyman",
@@ -5618,6 +6231,8 @@
   },
   {
    "asin": "B002V8MLII",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V8MLII",
    "title": "Ricky Gervais Show: The Complete Third Season",
    "author": "Ricky Gervais, Karl Pilkington, Stephen Merchant",
    "narrator": null,
@@ -5631,12 +6246,12 @@
    "coverId": null,
    "returned": null,
    "extraPurchases": [],
-   "flags": [
-    "manual"
-   ]
+   "flags": []
   },
   {
    "asin": "B002V8N9MU",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V8N9MU",
    "title": "The Podfather Trilogy - Season Four of The Ricky Gervais Show",
    "author": "Ricky Gervais, Karl Pilkington, Stephen Merchant",
    "narrator": "Ricky Gervais, Steve Merchant, Karl Pilkington",
@@ -5654,6 +6269,8 @@
   },
   {
    "asin": "B002UZLDFE",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002UZLDFE",
    "title": "Ricky Gervais Show: The Complete Fifth Season",
    "author": "Ricky Gervais, Karl Pilkington, Steve Merchant",
    "narrator": "Ricky Gervais, Steve Merchant, Karl Pilkington",
@@ -5671,6 +6288,8 @@
   },
   {
    "asin": "B002V59YVI",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V59YVI",
    "title": "Ricky Gervais Show",
    "author": "Ricky Gervais, Steve Merchant, Karl Pilkington",
    "narrator": "Ricky Gervais, Steve Merchant, Karl Pilkington",
@@ -5688,6 +6307,8 @@
   },
   {
    "asin": "B002V19SMM",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V19SMM",
    "title": "Ricky Gervais Show",
    "author": "Ricky Gervais, Steve Merchant, Karl Pilkington",
    "narrator": "Ricky Gervais, Steve Merchant, Karl Pilkington",
@@ -5705,6 +6326,8 @@
   },
   {
    "asin": "B00CS398EQ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00CS398EQ",
    "title": "Allegiant",
    "author": "Veronica Roth",
    "narrator": "Emma Galvin, Aaron Stanford",
@@ -5722,6 +6345,8 @@
   },
   {
    "asin": "B007W4Z6TW",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B007W4Z6TW",
    "title": "Insurgent",
    "author": "Veronica Roth",
    "narrator": "Emma Galvin",
@@ -5740,12 +6365,12 @@
      "returned": "2013-12-14"
     }
    ],
-   "flags": [
-    "duplicate"
-   ]
+   "flags": []
   },
   {
    "asin": "B002V57S6G",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V57S6G",
    "title": "The Forgotten Garden",
    "author": "Kate Morton",
    "narrator": "Caroline Lee",
@@ -5763,6 +6388,8 @@
   },
   {
    "asin": "B0091ZGFVI",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0091ZGFVI",
    "title": "Monster Hunter Legion",
    "author": "Larry Correia",
    "narrator": "Oliver Wyman",
@@ -5780,6 +6407,8 @@
   },
   {
    "asin": "B005EGKBYK",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B005EGKBYK",
    "title": "Monster Hunter Alpha",
    "author": "Larry Correia",
    "narrator": "Oliver Wyman",
@@ -5797,6 +6426,8 @@
   },
   {
    "asin": "B004RGOQM6",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B004RGOQM6",
    "title": "Monster Hunter Vendetta",
    "author": "Larry Correia",
    "narrator": "Oliver Wyman",
@@ -5814,6 +6445,8 @@
   },
   {
    "asin": "B004RGQ6UQ",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B004RGQ6UQ",
    "title": "Monster Hunter International",
    "author": "Larry Correia",
    "narrator": "Oliver Wyman",
@@ -5831,6 +6464,8 @@
   },
   {
    "asin": "B003AO5IBE",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B003AO5IBE",
    "title": "The Help",
    "author": "Kathryn Stockett",
    "narrator": null,
@@ -5844,12 +6479,12 @@
    "coverId": null,
    "returned": null,
    "extraPurchases": [],
-   "flags": [
-    "manual"
-   ]
+   "flags": []
   },
   {
    "asin": "B009OJXEOW",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B009OJXEOW",
    "title": "A Memory of Light",
    "author": "Robert Jordan, Brandon Sanderson",
    "narrator": "Michael Kramer, Kate Reading",
@@ -5867,6 +6502,8 @@
   },
   {
    "asin": "B009KSQJ3U",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B009KSQJ3U",
    "title": "Gardens of the Moon",
    "author": "Steven Erikson",
    "narrator": "Ralph Lister",
@@ -5884,6 +6521,8 @@
   },
   {
    "asin": "B00A6VQGOW",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00A6VQGOW",
    "title": "World War Z",
    "author": "Max Brooks",
    "narrator": "Christopher Ragland, Rupert Farley, Nigel Pilkington, Jennifer Woodward, David Thorpe, Adam Sims, Robert Slade",
@@ -5901,6 +6540,8 @@
   },
   {
    "asin": "B0057POQJE",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0057POQJE",
    "title": "A Dance with Dragons",
    "author": "George R. R. Martin",
    "narrator": "Roy Dotrice",
@@ -5918,6 +6559,8 @@
   },
   {
    "asin": "B006LPIVL8",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B006LPIVL8",
    "title": "A Feast for Crows",
    "author": "George R. R. Martin",
    "narrator": "Roy Dotrice",
@@ -5935,6 +6578,8 @@
   },
   {
    "asin": "B0036NQ9Z8",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0036NQ9Z8",
    "title": "A Storm of Swords",
    "author": "George R. R. Martin",
    "narrator": "Roy Dotrice",
@@ -5952,6 +6597,8 @@
   },
   {
    "asin": "B002UZKIBO",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002UZKIBO",
    "title": "A Clash of Kings",
    "author": "George R. R. Martin",
    "narrator": "Roy Dotrice",
@@ -5969,6 +6616,8 @@
   },
   {
    "asin": "B002UZZ93G",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002UZZ93G",
    "title": "A Game of Thrones",
    "author": "George R. R. Martin",
    "narrator": "Roy Dotrice",
@@ -5986,6 +6635,8 @@
   },
   {
    "asin": "B00494LMV4",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B00494LMV4",
    "title": "Towers of Midnight",
    "author": "Robert Jordan, Brandon Sanderson",
    "narrator": "Kate Reading, Michael Kramer",
@@ -6003,6 +6654,8 @@
   },
   {
    "asin": "B002V0K6BA",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V0K6BA",
    "title": "Knife of Dreams",
    "author": "Robert Jordan",
    "narrator": "Kate Reading, Michael Kramer",
@@ -6020,6 +6673,8 @@
   },
   {
    "asin": "B002UZN0PA",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002UZN0PA",
    "title": "The Gathering Storm",
    "author": "Robert Jordan, Brandon Sanderson",
    "narrator": "Michael Kramer, Kate Reading",
@@ -6037,6 +6692,8 @@
   },
   {
    "asin": "B0036N9G8K",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0036N9G8K",
    "title": "Crossroads of Twilight",
    "author": "Robert Jordan",
    "narrator": "Kate Reading, Michael Kramer",
@@ -6054,6 +6711,8 @@
   },
   {
    "asin": "B002V1AJEI",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V1AJEI",
    "title": "Path of Daggers",
    "author": "Robert Jordan",
    "narrator": "Michael Kramer, Kate Reading",
@@ -6071,6 +6730,8 @@
   },
   {
    "asin": "B004NQKRVE",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B004NQKRVE",
    "title": "Winter's Heart",
    "author": "Robert Jordan",
    "narrator": "Kate Reading, Michael Kramer",
@@ -6088,6 +6749,8 @@
   },
   {
    "asin": "B002V0118W",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V0118W",
    "title": "A Crown of Swords",
    "author": "Robert Jordan",
    "narrator": "Kate Reading, Michael Kramer",
@@ -6105,6 +6768,8 @@
   },
   {
    "asin": "B002UZML5K",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002UZML5K",
    "title": "The Shadow Rising",
    "author": "Robert Jordan",
    "narrator": "Kate Reading, Michael Kramer",
@@ -6118,12 +6783,12 @@
    "coverId": "51q3FzspIQL",
    "returned": "2012-08-13",
    "extraPurchases": [],
-   "flags": [
-    "returned"
-   ]
+   "flags": []
   },
   {
    "asin": "B002V0JU3U",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V0JU3U",
    "title": "The Fires of Heaven",
    "author": "Robert Jordan",
    "narrator": "Kate Reading, Michael Kramer",
@@ -6141,6 +6806,8 @@
   },
   {
    "asin": "B002V1OIM2",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V1OIM2",
    "title": "The Dragon Reborn",
    "author": "Robert Jordan",
    "narrator": "Kate Reading, Michael Kramer",
@@ -6154,12 +6821,12 @@
    "coverId": "51mcAFVS4fL",
    "returned": "2012-08-13",
    "extraPurchases": [],
-   "flags": [
-    "returned"
-   ]
+   "flags": []
   },
   {
    "asin": "B002V5BDOE",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B002V5BDOE",
    "title": "Lord of Chaos",
    "author": "Robert Jordan",
    "narrator": "Kate Reading, Michael Kramer",
@@ -6177,6 +6844,8 @@
   },
   {
    "asin": "B0036NHZ10",
+   "source": "audible",
+   "url": "https://www.audible.com/pd/B0036NHZ10",
    "title": "The Eye of the World",
    "author": "Robert Jordan",
    "narrator": "Kate Reading, Michael Kramer",

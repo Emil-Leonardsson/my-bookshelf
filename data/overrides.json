@@ -18,7 +18,9 @@
     4
    ]
   ],
-  "genre": "Fantasy"
+  "genre": "Fantasy",
+  "author": "Brian D. Anderson",
+  "narrator": "Derek Perkins"
  },
  "B00IA86T0O": {
   "series": [
@@ -27,7 +29,9 @@
     5
    ]
   ],
-  "genre": "Fantasy"
+  "genre": "Fantasy",
+  "author": "Brian D. Anderson",
+  "narrator": "Derek Perkins"
  },
  "B00NEZVDVI": {
   "series": [
@@ -36,7 +40,9 @@
     6
    ]
   ],
-  "genre": "Fantasy"
+  "genre": "Fantasy",
+  "author": "Brian D. Anderson",
+  "narrator": "Derek Perkins"
  },
  "B00ZSUALOM": {
   "series": [
@@ -45,7 +51,9 @@
     null
    ]
   ],
-  "genre": "Fantasy"
+  "genre": "Fantasy",
+  "author": "Brian D. Anderson",
+  "narrator": "Derek Perkins"
  },
  "B00MTTG9NC": {
   "series": [
@@ -54,10 +62,14 @@
     null
    ]
   ],
-  "genre": "Fantasy"
+  "genre": "Fantasy",
+  "author": "Brian D. Anderson",
+  "narrator": "Derek Perkins"
  },
  "B071JG6JD4": {
-  "genre": "Fantasy"
+  "genre": "Fantasy",
+  "author": "J.S. Morin",
+  "narrator": "Mikael Naramore"
  },
  "B00I2WV0WA": {
   "author": "Patricia Briggs",
@@ -82,6 +94,13 @@
   "genre": "Fantasy"
  },
  "B07P6MWXRC": {
-  "genre": "Fantasy"
+  "genre": "Fantasy",
+  "author": "Vox Day",
+  "series": [
+   [
+    "Arts of Dark and Light",
+    1
+   ]
+  ]
  }
 }

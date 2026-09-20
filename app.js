@@ -1,5 +1,5 @@
 (() => {
-  const DRAFT_KEY = 'audible-ratings-draft';
+  const DRAFT_KEY = 'bookshelf-ratings-draft';
   const EDIT = new URLSearchParams(location.search).has('edit');
 
   const FLAG_LABELS = {
@@ -54,7 +54,7 @@
     const series = b.series && showSeries
       ? `<span class="series">${esc(b.series)}${b.seriesPart != null ? ` #${b.seriesPart}` : ''}</span>`
       : b.series && b.seriesPart ? `<span class="series">Del ${b.seriesPart}</span>` : '';
-    const url = `https://www.audible.com/pd/${encodeURIComponent(b.asin)}`;
+    const url = b.url;
     return `
       <article class="book">
         <a class="cover"${bg} href="${url}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${cover}</a>
@@ -62,7 +62,7 @@
         <span class="by">${esc(b.author || 'Okänd författare')}</span>
         ${series}
         ${starsHtml(b)}
-        <span class="date">Köpt ${fmtDate(b.purchased)}${b.returned ? ` · returnerad ${b.returned.slice(0, 4)}` : ''}</span>
+        <span class="date">Tillagd ${fmtDate(b.purchased)}</span>
         ${EDIT && b.flags.length ? `<span class="flags">Granska: ${b.flags.map((f) => FLAG_LABELS[f] || f).join(', ')}</span>` : ''}
       </article>`;
   }
