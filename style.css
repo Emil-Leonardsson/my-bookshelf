@@ -135,3 +135,7 @@ button.ghost { background: transparent; }
 
 .empty { text-align: center; color: var(--muted); padding: 60px 0; }
 .foot { color: var(--muted); font-size: .85rem; padding: 32px 16px 48px; }
+.book .flags { color: var(--accent); font-size: .74rem; margin-top: 2px; }
+.book h3 a { color: inherit; text-decoration: none; }
+.book h3 a:hover { text-decoration: underline; color: var(--accent); }
+a.cover { text-decoration: none; }

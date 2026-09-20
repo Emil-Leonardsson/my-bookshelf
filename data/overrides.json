@@ -1,0 +1,87 @@
+{
+ "_kommentar": "Handifyllda uppgifter för titlar som Audible inte längre har produktsida för. Alla får flaggan 'manual' så att de kan granskas.",
+ "B003AO5IBE": {
+  "author": "Kathryn Stockett",
+  "genre": "Skönlitteratur"
+ },
+ "B005DEPK0I": {
+  "sameAs": "B00UVR0LWY"
+ },
+ "B002V8MLII": {
+  "author": "Ricky Gervais, Karl Pilkington, Stephen Merchant",
+  "genre": "Performing Arts"
+ },
+ "B00GS6O1EG": {
+  "series": [
+   [
+    "The Godling Chronicles",
+    4
+   ]
+  ],
+  "genre": "Fantasy"
+ },
+ "B00IA86T0O": {
+  "series": [
+   [
+    "The Godling Chronicles",
+    5
+   ]
+  ],
+  "genre": "Fantasy"
+ },
+ "B00NEZVDVI": {
+  "series": [
+   [
+    "The Godling Chronicles",
+    6
+   ]
+  ],
+  "genre": "Fantasy"
+ },
+ "B00ZSUALOM": {
+  "series": [
+   [
+    "The Godling Chronicles",
+    null
+   ]
+  ],
+  "genre": "Fantasy"
+ },
+ "B00MTTG9NC": {
+  "series": [
+   [
+    "The Godling Chronicles",
+    null
+   ]
+  ],
+  "genre": "Fantasy"
+ },
+ "B071JG6JD4": {
+  "genre": "Fantasy"
+ },
+ "B00I2WV0WA": {
+  "author": "Patricia Briggs",
+  "narrator": "Lorelei King",
+  "series": [
+   [
+    "Mercy Thompson",
+    8
+   ]
+  ],
+  "genre": "Fantasy"
+ },
+ "B01BI1X19Q": {
+  "author": "Patricia Briggs",
+  "narrator": "Lorelei King",
+  "series": [
+   [
+    "Mercy Thompson",
+    9
+   ]
+  ],
+  "genre": "Fantasy"
+ },
+ "B07P6MWXRC": {
+  "genre": "Fantasy"
+ }
+}

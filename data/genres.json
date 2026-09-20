@@ -1,0 +1,38 @@
+{
+  "_kommentar": "Audibles genrer är röriga, så genren sätts här. Ordning: asin, serie, Audibles genre. Serier utan träff blir Fantasy.",
+  "audible": {
+    "Fantasy": "Fantasy",
+    "Action & Adventure": "Fantasy",
+    "Science Fiction": "Science Fiction",
+    "Science Fiction & Fantasy": "Fantasy",
+    "Mystery": "Deckare och thriller",
+    "Thriller & Suspense": "Deckare och thriller",
+    "Horror": "Skräck",
+    "Management & Leadership": "Facklitteratur",
+    "Personal Development": "Facklitteratur",
+    "Business Development & Entrepreneurship": "Facklitteratur",
+    "Performing Arts": "Komedi och podd"
+  },
+  "seriesDefault": "Fantasy",
+  "series": {
+    "LitRPG": [
+      "He Who Fights with Monsters",
+      "The Primal Hunter",
+      "The Legend of Randidly Ghosthound",
+      "The Path of Ascension",
+      "Mark of the Fool",
+      "Dungeon World"
+    ],
+    "Science Fiction": [
+      "Eisenhorn", "Ravenor", "The Horus Heresy", "Space Marine Conquests: Warhammer 40,000",
+      "Black Ocean: Galaxy Outlaws", "Galaxy's Edge", "Divergent", "The Skyward Series"
+    ],
+    "Facklitteratur": ["Geoff Watts Agile Mastery"]
+  },
+  "asin": {
+    "B002UZZ93G": "Fantasy",
+    "B00A6VQGOW": "Skräck",
+    "B0036NHZ10": "Fantasy"
+  },
+  "fallback": "Skönlitteratur"
+}

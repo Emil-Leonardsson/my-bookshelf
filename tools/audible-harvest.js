@@ -59,11 +59,15 @@ async function harvest(years) {
         seriesPart: part ? Number(part[1]) : null,
         genre: /subCategory1 = "([^"]*)"/.exec(t)?.[1] || /primaryCategory = "([^"]*)"/.exec(t)?.[1] || null,
         minutes: dur ? Number(dur[1] || 0) * 60 + Number(dur[2] || 0) : null,
-        cover: ab?.image || null,
+        cover: ab?.image ? ab.image.replace('https://m.media-amazon.com/images/I/', '').replace('._SL500_.jpg', '') : null,
         market: location.hostname.replace(/^www\./, ''),
       };
     }));
   }
-  for (const it of items) { Object.assign(it, meta[it.asin]); it.title = it.title || it.listTitle; delete it.listTitle; }
+  for (const it of items) {
+    Object.assign(it, meta[it.asin]);
+    it.title = it.title || it.listTitle;
+    delete it.listTitle; delete it.orderId; delete it.cost; // hålls utanför det publika repot
+  }
   return JSON.stringify({ items, skipped });
 }

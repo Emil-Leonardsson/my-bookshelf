@@ -2,6 +2,13 @@
   const DRAFT_KEY = 'audible-ratings-draft';
   const EDIT = new URLSearchParams(location.search).has('edit');
 
+  const FLAG_LABELS = {
+    returned: 'returnerad',
+    duplicate: 'köpt flera gånger',
+    manual: 'handifylld info',
+    noauthor: 'saknar författare',
+  };
+
   const state = { books: [], saved: {}, q: '', view: 'date', dir: 'desc', minRating: '0' };
   let draft = loadDraft();
 
@@ -45,16 +52,18 @@
       : `<span>${esc(b.title)}</span>`;
     const bg = b.cover ? '' : ` style="background:linear-gradient(145deg,hsl(${hue(b.title)} 45% 38%),hsl(${(hue(b.title) + 40) % 360} 50% 26%))"`;
     const series = b.series && showSeries
-      ? `<span class="series">${esc(b.series)} #${b.seriesPart ?? '?'}</span>`
+      ? `<span class="series">${esc(b.series)}${b.seriesPart != null ? ` #${b.seriesPart}` : ''}</span>`
       : b.series && b.seriesPart ? `<span class="series">Del ${b.seriesPart}</span>` : '';
+    const url = `https://www.audible.com/pd/${encodeURIComponent(b.asin)}`;
     return `
       <article class="book">
-        <div class="cover"${bg}>${cover}</div>
-        <h3>${esc(b.title)}</h3>
-        <span class="by">${esc(b.author)}</span>
+        <a class="cover"${bg} href="${url}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${cover}</a>
+        <h3><a href="${url}" target="_blank" rel="noopener">${esc(b.title)}</a></h3>
+        <span class="by">${esc(b.author || 'Okänd författare')}</span>
         ${series}
         ${starsHtml(b)}
         <span class="date">Köpt ${fmtDate(b.purchased)}${b.returned ? ` · returnerad ${b.returned.slice(0, 4)}` : ''}</span>
+        ${EDIT && b.flags.length ? `<span class="flags">Granska: ${b.flags.map((f) => FLAG_LABELS[f] || f).join(', ')}</span>` : ''}
       </article>`;
   }
 
