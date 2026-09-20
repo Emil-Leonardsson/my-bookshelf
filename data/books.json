@@ -9311,49 +9311,6 @@
    "flags": []
   },
   {
-   "asin": "B00CS398EQ",
-   "source": "audible",
-   "url": "https://www.audible.com/pd/B00CS398EQ",
-   "title": "Allegiant",
-   "author": "Veronica Roth",
-   "narrator": "Emma Galvin, Aaron Stanford",
-   "purchased": "2014-01-13",
-   "genre": "Science Fiction",
-   "audibleGenre": "Literature & Fiction",
-   "series": "Divergent",
-   "seriesPart": 3,
-   "minutes": 711,
-   "cover": "covers/B00CS398EQ.jpg",
-   "coverId": "518Zd2IlnVL",
-   "returned": null,
-   "extraPurchases": [],
-   "flags": []
-  },
-  {
-   "asin": "B007W4Z6TW",
-   "source": "audible",
-   "url": "https://www.audible.com/pd/B007W4Z6TW",
-   "title": "Insurgent",
-   "author": "Veronica Roth",
-   "narrator": "Emma Galvin",
-   "purchased": "2013-12-14",
-   "genre": "Science Fiction",
-   "audibleGenre": "Literature & Fiction",
-   "series": "Divergent",
-   "seriesPart": 2,
-   "minutes": 682,
-   "cover": "covers/B007W4Z6TW.jpg",
-   "coverId": "513jVijQERL",
-   "returned": null,
-   "extraPurchases": [
-    {
-     "purchased": "2013-12-14",
-     "returned": "2013-12-14"
-    }
-   ],
-   "flags": []
-  },
-  {
    "asin": "B002V57S6G",
    "source": "audible",
    "url": "https://www.audible.com/pd/B002V57S6G",
