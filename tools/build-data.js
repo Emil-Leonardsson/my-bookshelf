@@ -78,6 +78,7 @@ for (const [asin, list] of byAsin) {
   });
 }
 // Nextory: ingen datuminfo, bara ordning (äldst först). Datum fördelas jämnt över perioden.
+const totals = readJson('totals.json');
 const period = readJson('nextory-period.json');
 const nextory = readJson('nextory.json');
 const t0 = Date.parse(period.start), t1 = Date.parse(period.end);
@@ -93,5 +94,5 @@ nextory.forEach((b, i) => {
 
 books.sort((a, b) => (a.purchased < b.purchased ? 1 : a.purchased > b.purchased ? -1 : 0));
 
-fs.writeFileSync(path.join(dataDir, 'books.json'), JSON.stringify({ generated: new Date().toISOString().slice(0, 10), books }, null, 1) + '\n');
+fs.writeFileSync(path.join(dataDir, 'books.json'), JSON.stringify({ generated: new Date().toISOString().slice(0, 10), totalHours: totals.audibleHours + totals.nextoryHours, books }, null, 1) + '\n');
 console.log(`${purchases.length} köp + ${nextory.length} Nextory -> ${books.length} böcker. Flaggade: ${books.filter((b) => b.flags.length).length}`);

@@ -27,6 +27,8 @@
   const fmtDate = (iso) =>
     new Date(iso).toLocaleDateString('sv-SE', { year: 'numeric', month: 'short', day: 'numeric' });
 
+  const fmtMonth = (iso) => new Date(iso).toLocaleDateString('sv-SE', { year: 'numeric', month: 'short' });
+
   function hue(s) {
     let h = 0;
     for (const c of s) h = (h * 31 + c.charCodeAt(0)) % 360;
@@ -62,7 +64,7 @@
         <span class="by">${esc(b.author || 'Okänd författare')}</span>
         ${series}
         ${starsHtml(b)}
-        ${b.dateApprox ? "" : `<span class="date">Tillagd ${fmtDate(b.purchased)}</span>`}
+        <span class="date">Tillagd ${b.dateApprox ? `ca ${fmtMonth(b.purchased)}` : fmtDate(b.purchased)}</span>
         ${EDIT && b.flags.length ? `<span class="flags">Granska: ${b.flags.map((f) => FLAG_LABELS[f] || f).join(', ')}</span>` : ''}
       </article>`;
   }
@@ -156,6 +158,7 @@
       ['Serier', new Set(state.books.map((b) => b.series).filter(Boolean)).size],
       ['Snittbetyg', a ? a.toFixed(1).replace('.', ',') + ' ★' : '-'],
       ['Betygsatta', `${ratedCount} av ${state.books.length}`],
+      ['Timmar', state.totalHours ? 'ca ' + (Math.round(state.totalHours / 100) * 100).toLocaleString('sv-SE') : '-'],
       ['Sedan', dates.length ? dates[0].slice(0, 4) : '-'],
     ];
     $('stats').innerHTML = items.map(([t, v]) => `<div><dt>${t}</dt><dd>${v}</dd></div>`).join('');
@@ -211,6 +214,7 @@
   ])
     .then(([data, ratings]) => {
       state.books = data.books;
+      state.totalHours = data.totalHours;
       state.saved = ratings;
       bind();
       renderStats();
