@@ -27,6 +27,8 @@
   const fmtDate = (iso) =>
     new Date(iso).toLocaleDateString('sv-SE', { year: 'numeric', month: 'short', day: 'numeric' });
 
+  const fmtMonth = (iso) => new Date(iso).toLocaleDateString('sv-SE', { year: 'numeric', month: 'short' });
+
   function hue(s) {
     let h = 0;
     for (const c of s) h = (h * 31 + c.charCodeAt(0)) % 360;
@@ -57,12 +59,12 @@
     const url = b.url;
     return `
       <article class="book">
-        <a class="cover"${bg} href="${url}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${cover}</a>
-        <h3><a href="${url}" target="_blank" rel="noopener">${esc(b.title)}</a></h3>
+        ${url ? `<a class="cover"${bg} href="${url}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${cover}</a>` : `<div class="cover"${bg}>${cover}</div>`}
+        <h3>${url ? `<a href="${url}" target="_blank" rel="noopener">${esc(b.title)}</a>` : esc(b.title)}</h3>
         <span class="by">${esc(b.author || 'Okänd författare')}</span>
         ${series}
         ${starsHtml(b)}
-        <span class="date">Tillagd ${fmtDate(b.purchased)}</span>
+        <span class="date">Tillagd ${b.dateApprox ? `ca ${fmtMonth(b.purchased)}` : fmtDate(b.purchased)}</span>
         ${EDIT && b.flags.length ? `<span class="flags">Granska: ${b.flags.map((f) => FLAG_LABELS[f] || f).join(', ')}</span>` : ''}
       </article>`;
   }
@@ -156,7 +158,6 @@
       ['Serier', new Set(state.books.map((b) => b.series).filter(Boolean)).size],
       ['Snittbetyg', a ? a.toFixed(1).replace('.', ',') + ' ★' : '-'],
       ['Betygsatta', `${ratedCount} av ${state.books.length}`],
-      ['Timmar', Math.round(state.books.reduce((n, b) => n + (b.minutes || 0), 0) / 60)],
       ['Sedan', dates.length ? dates[0].slice(0, 4) : '-'],
     ];
     $('stats').innerHTML = items.map(([t, v]) => `<div><dt>${t}</dt><dd>${v}</dd></div>`).join('');

@@ -7,6 +7,7 @@ const dataDir = path.join(__dirname, '..', 'data');
 const readJson = (f) => JSON.parse(fs.readFileSync(path.join(dataDir, f), 'utf8'));
 const genres = readJson('genres.json');
 const overrides = readJson('overrides.json');
+const exclude = new Set(readJson('exclude.json').asin);
 const reviewed = new Set(readJson('reviewed.json')); // asin som jag har granskat, får inga flaggor
 const coverDir = path.join(__dirname, '..', 'covers');
 
@@ -20,7 +21,7 @@ for (const f of fs.readdirSync(path.join(dataDir, 'raw')).filter((n) => n.endsWi
 
 // 2. En post per bok (asin). Första köpet som inte returnerats vinner, övriga blir extraPurchases.
 const byAsin = new Map();
-for (const p of purchases) {
+for (const p of purchases.filter((x) => !exclude.has(x.asin))) {
   const key = overrides[p.asin]?.sameAs || p.asin; // sameAs: samma bok med nytt asin
   (byAsin.get(key) ?? byAsin.set(key, []).get(key)).push(p);
 }
@@ -76,7 +77,21 @@ for (const [asin, list] of byAsin) {
     flags,
   });
 }
+// Nextory: ingen datuminfo, bara ordning (äldst först). Datum fördelas jämnt över perioden.
+const period = readJson('nextory-period.json');
+const nextory = readJson('nextory.json');
+const t0 = Date.parse(period.start), t1 = Date.parse(period.end);
+nextory.forEach((b, i) => {
+  const t = nextory.length > 1 ? t0 + ((t1 - t0) * i) / (nextory.length - 1) : t0;
+  books.push({
+    asin: b.id, source: 'nextory', url: null, title: b.title, author: b.author || null, narrator: null,
+    purchased: new Date(t).toISOString().slice(0, 10), dateApprox: true, genre: b.genre, audibleGenre: null,
+    series: b.series, seriesPart: b.seriesPart, minutes: null, cover: `covers/${b.id}.jpg`, coverId: null,
+    returned: null, extraPurchases: [], flags: [],
+  });
+});
+
 books.sort((a, b) => (a.purchased < b.purchased ? 1 : a.purchased > b.purchased ? -1 : 0));
 
 fs.writeFileSync(path.join(dataDir, 'books.json'), JSON.stringify({ generated: new Date().toISOString().slice(0, 10), books }, null, 1) + '\n');
-console.log(`${purchases.length} köp -> ${books.length} böcker. Flaggade: ${books.filter((b) => b.flags.length).length}`);
+console.log(`${purchases.length} köp + ${nextory.length} Nextory -> ${books.length} böcker. Flaggade: ${books.filter((b) => b.flags.length).length}`);
