@@ -209,8 +209,8 @@
   }
 
   Promise.all([
-    fetch('data/books.json').then((r) => r.json()),
-    fetch('data/ratings.json').then((r) => r.json()).catch(() => ({})),
+    fetch('data/books.json', { cache: 'no-cache' }).then((r) => r.json()),
+    fetch('data/ratings.json', { cache: 'no-cache' }).then((r) => r.json()).catch(() => ({})),
   ])
     .then(([data, ratings]) => {
       state.books = data.books;
