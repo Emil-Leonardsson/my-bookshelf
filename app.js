@@ -2,7 +2,7 @@
   const DRAFT_KEY = 'audible-ratings-draft';
   const EDIT = new URLSearchParams(location.search).has('edit');
 
-  const state = { books: [], q: '', view: 'date', dir: 'desc', minRating: '0' };
+  const state = { books: [], saved: {}, q: '', view: 'date', dir: 'desc', minRating: '0' };
   let draft = loadDraft();
 
   const $ = (id) => document.getElementById(id);
@@ -15,7 +15,7 @@
     try { localStorage.setItem(DRAFT_KEY, JSON.stringify(draft)); } catch { /* ignore */ }
   }
 
-  const ratingOf = (b) => (b.asin in draft ? draft[b.asin] : b.rating);
+  const ratingOf = (b) => (b.asin in draft ? draft[b.asin] : state.saved[b.asin] ?? null);
 
   const fmtDate = (iso) =>
     new Date(iso).toLocaleDateString('sv-SE', { year: 'numeric', month: 'short', day: 'numeric' });
@@ -54,7 +54,7 @@
         <span class="by">${esc(b.author)}</span>
         ${series}
         ${starsHtml(b)}
-        <span class="date">Köpt ${fmtDate(b.purchased)}</span>
+        <span class="date">Köpt ${fmtDate(b.purchased)}${b.returned ? ` · returnerad ${b.returned.slice(0, 4)}` : ''}</span>
       </article>`;
   }
 
@@ -147,17 +147,18 @@
       ['Serier', new Set(state.books.map((b) => b.series).filter(Boolean)).size],
       ['Snittbetyg', a ? a.toFixed(1).replace('.', ',') + ' ★' : '-'],
       ['Betygsatta', `${ratedCount} av ${state.books.length}`],
+      ['Timmar', Math.round(state.books.reduce((n, b) => n + (b.minutes || 0), 0) / 60)],
       ['Sedan', dates.length ? dates[0].slice(0, 4) : '-'],
     ];
     $('stats').innerHTML = items.map(([t, v]) => `<div><dt>${t}</dt><dd>${v}</dd></div>`).join('');
   }
 
   function exportRatings() {
-    const books = state.books.map((b) => ({ ...b, rating: ratingOf(b) }));
-    const out = JSON.stringify({ generated: new Date().toISOString().slice(0, 10), books }, null, 2);
+    const out = {};
+    for (const b of state.books) { const r = ratingOf(b); if (r) out[b.asin] = r; }
     const a = document.createElement('a');
-    a.href = URL.createObjectURL(new Blob([out], { type: 'application/json' }));
-    a.download = 'books.json';
+    a.href = URL.createObjectURL(new Blob([JSON.stringify(out, null, 1) + '\n'], { type: 'application/json' }));
+    a.download = 'ratings.json';
     a.click();
     URL.revokeObjectURL(a.href);
   }
@@ -196,10 +197,13 @@
     }
   }
 
-  fetch('data/books.json')
-    .then((r) => r.json())
-    .then((data) => {
+  Promise.all([
+    fetch('data/books.json').then((r) => r.json()),
+    fetch('data/ratings.json').then((r) => r.json()).catch(() => ({})),
+  ])
+    .then(([data, ratings]) => {
       state.books = data.books;
+      state.saved = ratings;
       bind();
       renderStats();
       render();
