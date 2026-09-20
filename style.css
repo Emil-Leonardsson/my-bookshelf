@@ -139,3 +139,10 @@ button.ghost { background: transparent; }
 .book h3 a { color: inherit; text-decoration: none; }
 .book h3 a:hover { text-decoration: underline; color: var(--accent); }
 a.cover { text-decoration: none; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 12px; }
+.chips[hidden] { display: none; }
+.chip { border-radius: 99px; padding: 5px 12px; font-size: .88rem; }
+.chip span { color: var(--muted); margin-left: 2px; }
+.chip.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+.chip.on span { color: rgb(255 255 255 / .8); }

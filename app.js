@@ -9,7 +9,7 @@
     noauthor: 'saknar författare',
   };
 
-  const state = { books: [], saved: {}, q: '', view: 'date', dir: 'desc', minRating: '0' };
+  const state = { books: [], saved: {}, q: '', view: 'date', dir: 'desc', minRating: '0', genres: new Set() };
   let draft = loadDraft();
 
   const $ = (id) => document.getElementById(id);
@@ -73,11 +73,12 @@
     return String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
   }
 
-  function filtered() {
+  function filtered(withGenre = false) {
     const q = norm(state.q).trim();
     const min = Number(state.minRating);
     return state.books.filter((b) => {
       if (q && !norm([b.title, b.author, b.narrator, b.series, b.genre].join(' ')).includes(q)) return false;
+      if (withGenre && state.genres.size && !state.genres.has(b.genre)) return false;
       const r = ratingOf(b);
       if (min === -1) return !r;
       if (min > 0) return r >= min;
@@ -108,7 +109,8 @@
   }
 
   function render() {
-    const list = filtered();
+    const list = filtered(state.view === 'genre');
+    renderGenreChips();
     $('count').textContent = `Visar ${list.length} av ${state.books.length} böcker`;
     $('dir').textContent = state.dir === 'desc' ? 'Nyast först ↓' : 'Äldst först ↑';
     $('dir').hidden = state.view !== 'date';
@@ -137,6 +139,20 @@
       if (solo.length) html += groupHtml('Fristående böcker', solo.sort(byDate('asc')), false);
     }
     $('list').innerHTML = html;
+  }
+
+  function renderGenreChips() {
+    const box = $('genreFilter');
+    box.hidden = state.view !== 'genre';
+    if (box.hidden) return;
+    const counts = new Map();
+    for (const b of filtered(false)) counts.set(b.genre, (counts.get(b.genre) || 0) + 1);
+    const genres = [...counts].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'sv'));
+    box.innerHTML =
+      `<button class="chip${state.genres.size ? '' : ' on'}" data-genre="">Alla</button>` +
+      genres
+        .map(([g, n]) => `<button class="chip${state.genres.has(g) ? ' on' : ''}" data-genre="${esc(g)}">${esc(g)} <span>${n}</span></button>`)
+        .join('');
   }
 
   function groupBy(list, key) {
@@ -184,6 +200,16 @@
         document.querySelectorAll('[data-view]').forEach((x) => x.classList.toggle('on', x === btn));
         render();
       }));
+
+    $('genreFilter').addEventListener('click', (e) => {
+      const chip = e.target.closest('.chip');
+      if (!chip) return;
+      const g = chip.dataset.genre;
+      if (!g) state.genres.clear();
+      else if (state.genres.has(g)) state.genres.delete(g);
+      else state.genres.add(g);
+      render();
+    });
 
     if (EDIT) {
       $('editbar').hidden = false;
