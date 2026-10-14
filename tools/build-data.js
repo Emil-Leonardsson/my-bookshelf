@@ -87,7 +87,7 @@ nextory.forEach((b, i) => {
   books.push({
     asin: b.id, source: 'nextory', url: null, title: b.title, author: b.author || null, narrator: null,
     purchased: new Date(t).toISOString().slice(0, 10), dateApprox: true, genre: b.genre, audibleGenre: null,
-    series: b.series, seriesPart: b.seriesPart, minutes: null, cover: `covers/${b.id}.jpg`, coverId: null,
+    series: b.series, seriesPart: b.seriesPart, minutes: b.minutes ?? null, cover: `covers/${b.id}.jpg`, coverId: null,
     returned: null, extraPurchases: [], flags: [],
   });
 });
